@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad5)" rx="16"/>
+
+  <!-- Geometric luxury architectural lines -->
+  <g opacity="0.12" stroke="#f59e0b" stroke-width="1.5">
+    <polygon points="400,80 580,380 220,380" fill="none"/>
+    <polygon points="400,120 540,360 260,360" fill="none"/>
+    <polygon points="400,160 500,340 300,340" fill="none"/>
+  </g>
+
+  <!-- Frame -->
+  <g transform="translate(60, 45)">
+    <rect width="680" height="410" rx="12" fill="#090d16" stroke="#f59e0b" stroke-width="1.2" opacity="0.95"/>
+    <rect width="680" height="38" rx="12" fill="#131d2e"/>
+    <circle cx="25" cy="19" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="19" r="5" fill="#f59e0b"/>
+    <circle cx="59" cy="19" r="5" fill="#10b981"/>
+    <rect x="90" y="9" width="380" height="20" rx="6" fill="#1e2e4a"/>
+    <text x="110" y="23" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f5f5f7" opacity="0.8">https://zenithliving.estate/villas</text>
+
+    <!-- Content -->
+    <g transform="translate(30, 55)">
+      <text x="0" y="25" font-family="'Montserrat', sans-serif" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="1">ZENITH LUXURY ESTATES</text>
+      <text x="0" y="45" font-family="'Poppins', sans-serif" font-size="12" fill="#fbbf24">Cinematic Architectural Experience &amp; Private Villa Inquiry Portal</text>
+
+      <!-- 2 column hero showcase -->
+      <g transform="translate(0, 60)">
+        <rect x="0" y="0" width="380" height="180" rx="10" fill="#121b2d" stroke="#1e2d45"/>
+        <text x="25" y="40" font-family="'Montserrat', sans-serif" font-size="16" font-weight="700" fill="#ffffff">The Horizon Penthouse</text>
+        <text x="25" y="60" font-family="'Poppins', sans-serif" font-size="12" fill="#94a3b8">Interactive 360° Floorplan &amp; VIP Viewing Scheduler</text>
+        
+        <rect x="25" y="85" width="330" height="40" rx="6" fill="#18243b"/>
+        <text x="40" y="110" font-family="'Poppins', sans-serif" font-size="12" fill="#f59e0b" font-weight="600">Private Viewing Concierge: Online</text>
+
+        <rect x="25" y="135" width="140" height="32" rx="6" fill="url(#goldGrad)"/>
+        <text x="45" y="156" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#000000">Schedule Tour</text>
+
+        <!-- Right side stats -->
+        <g transform="translate(400, 0)">
+          <rect x="0" y="0" width="220" height="180" rx="10" fill="#121b2d" stroke="#f59e0b" stroke-width="1.2"/>
+          <text x="20" y="30" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#fbbf24">LEAD VELOCITY</text>
+          <text x="20" y="65" font-family="'Montserrat', sans-serif" font-size="26" font-weight="800" fill="#ffffff">₹35+ Cr</text>
+          <text x="20" y="83" font-family="'Poppins', sans-serif" font-size="11" fill="#94a3b8">High-Net-Worth Pipeline</text>
+          <line x1="20" y1="98" x2="200" y2="98" stroke="#1e2d45"/>
+          <text x="20" y="125" font-family="'Montserrat', sans-serif" font-size="24" font-weight="800" fill="#10b981">68%</text>
+          <text x="20" y="145" font-family="'Poppins', sans-serif" font-size="11" fill="#94a3b8">Tour Booking Conversion</text>
+        </g>
+      </g>
+
+      <!-- Bottom tags -->
+      <g transform="translate(0, 260)">
+        <rect x="0" y="0" width="140" height="26" rx="13" fill="#1c283e"/>
+        <text x="20" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">Luxury UI/UX</text>
+        <rect x="150" y="0" width="130" height="26" rx="13" fill="#1c283e"/>
+        <text x="165" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">3D Virtual Showcase</text>
+        <rect x="290" y="0" width="135" height="26" rx="13" fill="#1c283e"/>
+        <text x="305" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">HNW Lead Funnel</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(60, 45)">
+    <rect x="390" y="375" width="275" height="26" rx="6" fill="#d97706"/>
+    <text x="402" y="392" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#ffffff">★ CLIENT SLOT: READY FOR SCREENSHOT</text>
+  </g>
+</svg>

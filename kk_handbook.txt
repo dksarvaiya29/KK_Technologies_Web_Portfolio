@@ -1,0 +1,976 @@
+KK
+TECHNOLOGIES
+
+COMPLETE COMPANY KNOWLEDGE BASE
+BRAND & OPERATING HANDBOOK
+
+Full-Service Digital Technology Agency
+Rajkot · India · International
+
+AI CONTEXT REFERENCE | INTERNAL WORKING DOCUMENT
+Version 1.0 · Prepared 08 November 2026
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+How to Use This Handbook
+
+This document is the consolidated operating context for KK Technologies. It is designed to be uploaded to another
+AI assistant, shared with a collaborator, or used as an internal reference when planning, designing, selling, and
+delivering digital projects.
+Evidence labels used throughout: Confirmed means explicitly established in the project context; Working
+direction means a reasonable operating recommendation; To confirm means the detail is not currently
+known and must not be invented.
+Important: This handbook does not assert legal registration, ownership structure, employee count, revenue, verified
+client results, formal certifications, or fixed pricing because those details have not been confirmed.
+
+Contents
+
+q 1. Executive Company Profile
+q 2. Positioning, Vision & Principles
+q 3. Service Portfolio & Capability Boundaries
+q 4. Ideal Customers & Markets
+q 5. Brand DNA & Visual Identity
+q 6. Logo, Typography & Layout Rules
+q 7. Digital Design System & Social Content
+q 8. Website & E-commerce Delivery Standards
+q 9. AI, Automation & Technical Stack
+q 10. Client Portfolio & Project Knowledge
+q 11. Sales, Outreach & Follow-up SOP
+q 12. Client Onboarding & Project Delivery SOP
+q 13. Quality Assurance & Handover
+q 14. Marketing & Lead Generation
+q 15. Pricing & Commercial Framework
+q 16. Operations, Roles & Documentation
+q 17. Security, Privacy & Responsible AI
+q 18. Growth Roadmap & KPIs
+q 19. Master AI Instructions
+q 20. Reusable Prompt Templates
+q 21. Unknowns & Confirmation Register
+
+                                                                                                                                                                  INTERNAL REFERENCE · 2
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+1. Executive Company Profile
+
+Field                       Current company context
+Official name               KK Technologies (confirmed)
+Positioning                 Full-Service Digital Technology Agency (confirmed)
+Target markets              Rajkot, India, and international markets (confirmed target scope)
+Core identity               Premium, modern, minimal, innovative, professional, trustworthy, future-focused
+Primary business direction  Digital solutions that help businesses improve their online presence, customer journeys, operations,
+                            and growth
+Business maturity           Emerging agency / growing service business; exact legal and operational structure to confirm
+
+Company summary
+
+KK Technologies is positioned as a full-service digital technology agency. Its working service direction includes
+website design and development, AI-powered chatbots, social media handling, digital growth support, and
+automation-oriented solutions. The agency aims to translate business problems into practical digital systems rather
+than selling technology for its own sake.
+
+Core value proposition
+
+   "We help businesses build a stronger digital presence and smoother customer experiences through
+   thoughtful design, websites, automation, and practical technology."
+
+This is a recommended positioning statement, not a formally approved public tagline.
+
+                                    INTERNAL REFERENCE · 3
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+2. Positioning, Vision & Principles
+
+Positioning statement
+
+KK Technologies is a full-service digital technology agency serving local businesses, growing brands, and
+organizations that need dependable digital experiences, business websites, e-commerce systems, AI-enabled
+customer interactions, and digital growth support.
+
+Recommended vision
+
+Become a trusted technology partner for businesses by making modern digital tools accessible, useful, and
+commercially meaningful.
+
+Recommended mission
+
+Understand the client's business problem, design a clear solution, deliver it with reliable execution, and improve it
+through measurable feedback.
+
+Operating principles
+
+q Business-first: Start with the customer's problem, not a trendy tool or feature.
+q Clarity over complexity: Prefer simple user journeys and maintainable solutions.
+q Design with purpose: Visual polish must support trust, comprehension, and conversion.
+q Execution discipline: Define scope, milestones, approvals, and acceptance criteria before building.
+q Honest capability claims: Never promise integrations, results, or automation before validating feasibility.
+q Continuous learning: Test tools and workflows, document what works, and improve delivery.
+
+Brand personality
+
+Premium · Modern · Minimal · Innovative · Professional · Trustworthy · Future-focused
+
+                                                                                                                                                                  INTERNAL REFERENCE · 4
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+3. Service Portfolio & Capability Boundaries
+
+Services reflected in the current project context
+
+Service line            Typical deliverables                               Discovery questions
+
+Website design &        Business websites, landing pages, responsive       What business goal should the site achieve? Who is
+development             layouts, UI/UX, CMS-based websites                 the audience? What content and integrations are
+                                                                           needed?
+
+E-commerce solutions    WooCommerce storefronts, category pages,           How many products? What payment, shipping, tax,
+                        product detail pages, checkout flows, store setup  and inventory rules apply?
+
+AI chatbot services     Website/lead enquiry assistants, FAQ flows,        Which channels? What knowledge source? What
+                        qualification and routing concepts                 should the bot never answer or do?
+
+Social media handling   Content planning, post/reel concepts, creative     Which platforms? Posting frequency? Brand assets?
+                        design direction, publishing support               Approval process?
+
+Digital growth support  Conversion-focused pages, content strategy,        What is the baseline? What counts as a qualified
+                        campaign creative, lead-generation improvements    lead or sale?
+
+Automation & workflow   Process mapping, repetitive task automation,       What triggers the workflow? What systems are
+solutions               integrations where feasible                        involved? What exceptions and permissions exist?
+
+Capability boundary
+
+The above is the service direction, not proof that every service is already productized or available at every
+scale. Confirm platform access, technical feasibility, third-party costs, compliance, support expectations,
+and delivery capacity before committing.
+
+Recommended service packaging
+
+q Digital Presence: discovery, brand-aligned website, responsive build, basic on-page SEO, analytics setup
+     where authorized.
+
+q Commerce Launch: e-commerce UX, product catalogue, checkout configuration, payment/shipping setup, QA
+     and handover.
+
+q AI Customer Experience: use-case discovery, approved knowledge base, chatbot flow, escalation path,
+     testing and monitoring.
+
+q Content & Growth: monthly content plan, creative production, approval workflow, publishing and performance
+     review.
+
+q Workflow Automation: process audit, automation design, controlled implementation, logs, exception handling
+     and documentation.
+
+                                                                                                INTERNAL REFERENCE · 5
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+4. Ideal Customers & Markets
+
+Target market
+
+Rajkot and Gujarat provide a practical local-business base; India-wide and international markets are the broader
+target scope. The actual geographic reach and ability to support each market should be assessed per project.
+
+Recommended customer segments
+
+q Local retailers and service businesses with outdated or missing websites.
+q Food brands, restaurants, home-kitchen brands, and packaged-food businesses.
+q Small and medium businesses that need lead generation or better customer enquiry handling.
+q Growing e-commerce brands that need improved product pages and checkout experiences.
+q Founders and professional service providers who need a credible digital presence.
+q Organizations with repetitive admin or customer-support workflows that may benefit from automation.
+
+Ideal customer profile (ICP)
+
+Dimension       Good-fit signals
+Problem
+                Lost enquiries, unclear online presence, poor mobile experience, manual repetitive work, low trust or
+                weak conversion.
+
+Urgency         A launch, campaign, seasonal sales window, operational bottleneck, or measurable business need.
+
+Decision maker  Owner, founder, marketing lead, operations lead, or authorized manager.
+
+Readiness       Can provide requirements, content/assets, access, feedback, and timely approvals.
+
+Budget fit      Understands that scope, quality, integrations, maintenance, and support affect cost.
+
+Red flags       Unclear ownership, no decision maker, unrealistic guarantees, refusal to approve scope, or requests for
+                unauthorized access.
+
+Qualification questions
+
+1 What is the main business outcome you want from this project?
+2 How do customers currently discover and contact you?
+3 What is not working in the current process or website?
+4 Who will approve scope, content, design, and final delivery?
+5 What is the target launch date and what makes it important?
+6 Do you already have a domain, hosting, brand assets, product photos, and platform accounts?
+7 What budget range has been allocated?
+
+                                                                                         INTERNAL REFERENCE · 6
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+5. Brand DNA & Visual Identity
+
+Core brand identity -- confirmed
+
+The primary KK Technologies brand system is a premium, cinematic, minimal technology aesthetic using deep
+black or warm ivory, with dark orange as the signature accent.
+
+Token           Black variant           Ivory variant
+Background      Deep Black -- #0A0A0A   Warm Ivory -- #F8F5F2
+Accent          Dark Orange -- #FF5A1F  Dark Orange -- #FF5A1F
+Primary text    #FFFFFF                 #0A0A0A
+Secondary text  Soft Gray -- #A1A1AA    Soft Gray -- #A1A1AA
+
+Visual signature
+
+q Strong orange rim lighting and a controlled orange glow.
+q Soft volumetric light and restrained cinematic haze.
+q Wet reflective black floor where a 3D scene benefits from it.
+q Fine film-grain overlay used subtly, not as visual noise.
+q Faint circuit-line or cracked-tech textures as secondary detail.
+q A single surreal hero object is preferred over cluttered multi-object compositions.
+q Premium cinematic 3D-rendered social graphics are a core visual direction.
+
+Brand feeling
+
+Confident, precise, high-end, engineered, contemporary, and approachable. Avoid childish, noisy,
+generic-template, overly neon, or cluttered visuals.
+
+Important distinction: the orange/black/ivory system is the primary brand DNA lock. A separate
+midnight/violet/cyan palette has been discussed for LinkedIn content graphics. Treat that as a
+channel-specific or experimental content system--not a replacement for the primary company
+identity--unless explicitly re-approved.
+
+                                        INTERNAL REFERENCE · 7
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+6. Logo, Typography & Layout Rules
+
+Logo integrity
+
+q Use only the approved original KK Technologies logo asset supplied by the owner.
+q Never redraw, regenerate, distort, recolor, crop, stretch, or alter logo lettering or symbol proportions.
+q Maintain clear space around the logo and ensure strong contrast against the background.
+q Do not place effects over the logo that reduce legibility.
+q If a transparent or vector logo is unavailable, request the original asset rather than approximating it.
+
+Typography direction
+
+Role                     Preferred direction                    Usage
+Display / hero headline  Montserrat ExtraBold or Poppins Bold   Short, strong headlines and campaign statements.
+
+Body copy                Poppins Regular or a clean sans-serif  Readable supporting copy, descriptions, and captions.
+
+Technical / code labels  JetBrains Mono                         Code snippets, interface labels, technical annotations.
+
+Layout principles
+
+q Use a clear hierarchy: one dominant headline, one visual focal point, concise support copy.
+q Use generous negative space and consistent alignment.
+q Use orange selectively for emphasis, CTA cues, and focal details.
+q Keep body text readable on mobile; do not shrink text to force excess copy into a graphic.
+q Use consistent spacing, grid alignment, corner radius, and icon style within a campaign.
+q Avoid mixing unrelated visual metaphors in one composition.
+
+Recommended design QA
+
+q Logo unchanged and legible.
+q Palette matches the selected variant.
+q Headline is readable at phone size.
+q Single clear focal point.
+q No spelling or factual errors.
+q CTA is specific and visible.
+q Export dimensions and crop are correct.
+
+                                                                INTERNAL REFERENCE · 8
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+7. Digital Design System & Social Content
+
+Primary social creative style
+
+Premium cinematic technology graphics with a strong visual metaphor, restrained copy, clear hierarchy, and
+brand-consistent lighting. The design should communicate one business idea quickly.
+
+Known content design specifications from prior work
+
+Asset                          Known direction
+Instagram Reels / Stories      9:16 vertical format
+
+Instagram feed creative        4:5 or square depending on campaign and placement
+
+LinkedIn graphic               1:1 and 3:4 formats have been used/planned
+
+LinkedIn banner                4:1 wide; 1584 × 396 px reference specification
+
+Print assets in past requests  A1 / 7016 × 9933 px / 300 DPI and 12 × 18 inch references; verify print vendor specs each time
+
+Channel-specific palette note
+
+Token                          LinkedIn content palette reference
+
+Midnight                       #0B1020
+
+Electric Violet                #7C3AED
+
+Electric Cyan                  #22D3EE
+
+Off-white                      #F5F5F0
+
+Soft Gray                      #A1A1AA
+
+This palette was recorded for LinkedIn post/banner work. Confirm whether it remains active before applying it to company-wide collateral.
+
+Content pillars -- recommended
+
+q Problem  solution explainers for business owners.
+q Website and e-commerce UX improvements.
+q AI tools, chatbot use cases, and automation demonstrations.
+q Before/after redesigns and project walkthroughs (with client permission).
+q Build-in-public lessons, practical technical education, and process insights.
+q Client education: what a business actually needs before buying a website or automation.
+
+                                                                                           INTERNAL REFERENCE · 9
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+8. Website & E-commerce Delivery Standards
+
+Website delivery principles
+
+q Start with business goals, audience, sitemap, and conversion actions.
+q Design mobile-first and test real responsive breakpoints.
+q Use clear navigation, legible typography, accessible contrast, and predictable interaction patterns.
+q Optimize images and assets; avoid unnecessary scripts and plugins.
+q Validate forms, links, menus, search, checkout, and error states.
+q Provide ownership-aware handover: domain, hosting, CMS, credentials, backups, and renewal responsibilities.
+
+Recommended website project stages
+
+1 Discovery: business model, audience, goals, competitors, constraints.
+2 Scope: pages, templates, integrations, content responsibilities, exclusions, acceptance criteria.
+3 Information architecture: sitemap, user journeys, conversion paths.
+4 UI/UX: wireframes, visual direction, responsive components, design approval.
+5 Build: development, CMS configuration, integrations, content population.
+6 QA: device/browser testing, forms, performance, SEO basics, security checks.
+7 Launch: backup, DNS/hosting checks, analytics, redirects, final approval.
+8 Handover: walkthrough, documentation, access transfer, maintenance options.
+
+WooCommerce-specific checklist
+
+q Product taxonomy, categories, attributes, variations, SKU and inventory rules.
+q Product detail page template consistency and clear purchase CTA.
+q Cart and checkout behavior, payment gateway, shipping zones, taxes and order emails.
+q Mobile product gallery, pricing, quantity controls and sticky CTA behavior where appropriate.
+q Test guest checkout, failed payment, out-of-stock, coupon and order confirmation paths.
+q Confirm privacy policy, terms, refund/return and shipping information with the client.
+
+Known project implementation context
+
+A WordPress/WooCommerce project for Vaishaliben Foods involved Elementor, product category/listing pages,
+single-product detail templates, shop/all-products, checkout, mobile responsiveness, and a dynamic product-page
+PHP component. A recovery incident was resolved by disabling a problematic PHP file; a replacement file was later
+uploaded and the dynamic product page was reported working. Treat this as a project history, not a guarantee that
+the current production state is unchanged.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 10
+      KK TECHNOLOGIES | COMPANY HANDBOOK
+
+9. AI, Automation & Technical Stack
+
+Tools and technologies discussed in project context
+
+Area                  Tools / technologies referenced             Usage context / caution
+
+Web platform          WordPress, WooCommerce, Elementor           CMS and e-commerce delivery; validate plugin
+                                                                  compatibility and licensing.
+
+Web development       HTML, CSS, JavaScript, PHP, Python, SQL     Technical skills and implementation context; verify
+                                                                  current proficiency per task.
+
+AI assistants         ChatGPT, Claude, Google Gemini, Perplexity  Research, planning, coding assistance, content and
+                                                                  workflow support.
+
+AI media              Google Veo 3.x, Nano Banana Pro, Flow AI,   Video/image generation and creative experimentation;
+                      Runway ML                                   check access and usage rights.
+
+Developer tooling     Antigravity, Claude Code, OpenRouter,       AI-assisted development and model/provider
+                      OmniRoute, Ollama Cloud, OpenCode Zen       orchestration; configurations change frequently.
+
+Automation / browser  Python, Playwright                          Automation experiments; require explicit authorization
+                                                                  and careful handling of credentials/data.
+
+Technical capability areas to present accurately
+
+q Responsive front-end website implementation.
+q CMS-based website and WooCommerce configuration.
+q Custom PHP/JavaScript components when scoped and tested.
+q Python scripting and browser automation concepts.
+q Database fundamentals and SQL-related work.
+q AI-assisted content, chatbot and workflow design.
+q Technical troubleshooting, QA and documentation.
+
+Automation safety rules
+
+q Never automate a third-party portal without permission and within its terms.
+q Do not store passwords, OTPs, session cookies, API keys, or personal data in plain text.
+q Use test accounts and sandbox environments where available.
+q Add human review for consequential actions such as payments, submissions, approvals, or account changes.
+q Log failures and provide a manual fallback.
+q Document the automation's permissions, data flow, trigger, outputs, and failure conditions.
+
+                                                                                           INTERNAL REFERENCE · 11
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+10. Client Portfolio & Project Knowledge
+
+Project 1 -- Vaishaliben Foods / Vaishaliben.com
+
+Attribute                Known context
+Project type
+Business category        WordPress + WooCommerce e-commerce website and social media marketing support.
+Website
+Website work             Food brand / packaged food / Gujarati food products.
+
+Technical issue history  vaishaliben.com
+
+Marketing context        Demo build and planned redevelopment; Elementor; product category/listing, single product detail,
+                         shop/all products, checkout; mobile menu and responsive improvements.
+Content constraints
+                         A dynamic product page PHP file was disabled during recovery; website restored; replacement file
+Approval model           uploaded; dynamic product page reported working.
+
+                         Website sales as primary goal; planned 15 content pieces/month (12 posts, 3 reels); monthly Meta Ads
+                         spend discussed as s5,000; no current orders at time of planning.
+
+                         Original product images were pending; AI-generated product visuals were considered temporarily until
+                         real samples/images arrived.
+
+                         Weekly batch approval was selected in the discussed plan.
+
+Brand/content direction for this client
+
+q Position products around healthy food and winter nourishment where product facts support the claim.
+q Use attractive, clear headlines and conversion-oriented captions.
+q Maintain product accuracy; do not invent ingredients, health benefits, certifications, or nutritional claims.
+q Replace AI-generated product imagery with real product photography when available.
+q Protect the client's original logo; do not modify it during creative production.
+
+Project 2 -- Labhikrupa Farm Kitchen
+
+Attribute                Known context
+Project type             Restaurant website demo / digital presence project.
+Business category        Desi Indian / Gujarati food restaurant.
+Founder                  Vivek Vagadiya (as provided in project context).
+Brand feeling            Traditional, authentic, homemade, warm, family-friendly, premium rustic.
+Website goal             Modern, premium, mobile-first website.
+Design direction         Balance a contemporary web experience with a rooted, homely food identity.
+
+Portfolio usage rule
+
+Do not publish client logos, screenshots, metrics, testimonials, or private implementation details without
+permission. Label demo work as concept/demo work where applicable. No verified conversion or revenue
+outcomes are recorded in this handbook.
+
+                                                  INTERNAL REFERENCE · 12
+       KK TECHNOLOGIES | COMPANY HANDBOOK
+
+11. Sales, Outreach & Follow-up SOP
+
+Sales objective
+
+Build a repeatable process that identifies businesses with a real digital problem, communicates the value of a
+solution clearly, follows up consistently, and closes projects with written scope and expectations.
+
+Lead generation workflow
+
+1 Choose one niche or business segment for the outreach batch.
+2 Build a prospect list using publicly available business information and legitimate channels.
+3 Review each prospect's website, Google/business profile, social media, mobile experience, and enquiry path.
+4 Record one or two specific, observable opportunities--not generic criticism.
+5 Prioritize leads by fit, visible need, ability to contact a decision maker, and urgency.
+6 Personalize outreach around the business outcome, not a long list of services.
+
+Lead tracker fields
+
+Field                             Purpose
+Business name / niche / location  Identify the prospect and segment.
+
+Website / social links            Reference for audit and personalization.
+
+Observed problem                  Specific evidence of an opportunity.
+
+Recommended improvement           Practical solution hypothesis.
+
+Contact person / channel          Authorized point of contact and channel.
+
+Stage                             New, researched, contacted, replied, discovery, proposal, won, lost, nurture.
+
+Last contact / next follow-up     Prevent missed follow-ups.
+
+Estimated value / probability     Internal forecast only; not a client promise.
+
+Notes / objections                Preserve context and next action.
+
+Suggested outreach message structure
+
+1 Personal opening that proves the message is not mass spam.
+2 One concrete observation about the current customer journey.
+3 A concise business impact hypothesis.
+4 A low-friction offer: short audit, idea, or 10-minute discussion.
+5 A clear, respectful question.
+
+Example outreach (adapt, do not send blindly)
+
+   Hi [Name], I came across [Business] and noticed [specific observation]. There may be an opportunity
+   to make it easier for customers to [desired action] through a clearer mobile experience / enquiry flow.
+   I work with KK Technologies on websites and practical digital solutions. Would you be open to a short
+
+                                                                                 INTERNAL REFERENCE · 13
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+conversation? I can share 2-3 specific ideas for your business.
+
+Follow-up cadence -- recommended
+
+Timing          Action
+Day 0           Personalized initial outreach.
+
+Day 2-3         Short follow-up adding one useful insight or question.
+
+Day 6-8         Share a concise example or relevant recommendation.
+
+Day 12-14       Polite close-the-loop message; ask whether to revisit later.
+
+After response  Move to discovery; stop automated follow-ups and respond contextually.
+
+Do not repeatedly message uninterested prospects. Respect opt-outs and platform rules.
+
+                                                                                        INTERNAL REFERENCE · 14
+       KK TECHNOLOGIES | COMPANY HANDBOOK
+
+12. Client Onboarding & Project Delivery SOP
+
+Discovery call checklist
+
+q Business model, products/services, customer segments, geography.
+q Current digital assets and pain points.
+q Desired outcomes and success metrics.
+q Scope: pages, features, integrations, content, automation, and exclusions.
+q Budget range, timeline, decision maker, approval process.
+q Client-provided assets, access requirements, dependencies.
+
+Proposal must contain
+
+q Problem statement and project objectives.
+q Deliverables with explicit inclusions and exclusions.
+q Timeline, milestones, review rounds, and client dependencies.
+q Commercial terms, payment milestones, taxes if applicable, and validity.
+q Third-party subscriptions, hosting, domains, licenses, and ad spend responsibilities.
+q Change-request process, support period, maintenance scope, and handover terms.
+
+Project workflow
+
+Stage         Agency action                                Client checkpoint
+1. Discovery  Understand goals and constraints             Confirm brief and decision maker
+
+2. Scope      Define deliverables and acceptance criteria  Approve proposal and terms
+
+3. Assets     Create asset checklist and access plan       Provide content, logo, credentials safely
+
+4. Design     Prepare structure and visual direction       Approve design before build
+
+5. Build      Implement and document changes               Review milestone preview
+
+6. QA         Test functionality, responsiveness, content  UAT and issue sign-off
+
+7. Launch     Deploy with backup and rollback plan         Approve launch
+
+8. Handover   Transfer access and documentation            Acknowledge receipt and support terms
+
+Change control
+
+Any request that changes the approved scope, timeline, integrations, or deliverables should be recorded as
+a change request. Estimate the additional effort and impact, obtain written approval, and only then
+proceed.
+
+                                                                                         INTERNAL REFERENCE · 15
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+13. Quality Assurance & Handover
+
+Universal QA checklist
+
+q All agreed pages and deliverables are present.
+q Content, spelling, pricing, links, contact details, and CTAs are accurate.
+q Responsive layout checked on mobile, tablet, and desktop.
+q Forms and integrations tested with valid and invalid inputs.
+q No broken links, missing images, console errors, or obvious layout shifts.
+q Performance basics reviewed; oversized media and unnecessary plugins removed where possible.
+q Security, backup, update, and access responsibilities reviewed.
+q Client approval and final acceptance recorded.
+
+Website-specific QA
+
+q Navigation, footer, search, menu and key user journeys.
+q SEO title/meta basics, heading structure, sitemap and indexability where included.
+q Analytics and tracking only with appropriate access and privacy disclosures.
+q Cross-browser checks and form notification delivery.
+q Checkout, payments, shipping, tax, coupons, transactional emails and order status for e-commerce.
+
+Handover package
+
+q Final scope and deliverables summary.
+q Admin/user access transfer using a secure method.
+q Domain, hosting, CMS, plugin/theme and subscription inventory.
+q Backup and restore notes.
+q How-to guide or recorded walkthrough where agreed.
+q Known limitations, pending items, and recommended next steps.
+q Support and maintenance terms.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 16
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+14. Marketing & Lead Generation
+
+Marketing objective
+
+Build trust and generate qualified conversations by demonstrating practical business understanding, credible
+execution, and useful technical knowledge.
+
+Recommended marketing channels
+
+q LinkedIn: expertise, case studies, founder/build-in-public insights, and B2B connections.
+q Instagram: visual portfolio, short educational reels, project snapshots, and clear service explanations.
+q Direct outreach: niche-specific audits and personalized prospecting.
+q Website/portfolio: service pages, proof of work, enquiry CTA, and project process.
+
+Monthly content operating rhythm -- recommended
+
+Content type     Purpose                    Example
+Educational      Explain a problem clearly  Why a local business needs a clear mobile enquiry path.
+
+Proof of work    Demonstrate execution      Website section redesign or project walkthrough with
+                                            permission.
+
+Process          Build trust                How a website project moves from brief to launch.
+
+AI/automation    Show practical value       A chatbot use case for frequently asked questions.
+
+Founder insight  Humanize the brand         Lessons learned while building and testing a solution.
+
+Offer / CTA      Generate leads             Request a website or customer-journey audit.
+
+Content quality rules
+
+q One post should communicate one main idea.
+q Use specific business examples and avoid exaggerated claims.
+q Use a strong hook, useful body, and a relevant CTA.
+q Keep the visual consistent with the selected brand palette.
+q Track qualified enquiries and conversations--not only likes or impressions.
+
+                                                                               INTERNAL REFERENCE · 17
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+15. Pricing & Commercial Framework
+
+Pricing status
+
+No approved KK Technologies rate card, fixed package prices, hourly rates, payment policy, or
+maintenance pricing is confirmed in the available context. Do not invent or quote fixed prices as official.
+
+Recommended pricing method
+
+1 Estimate scope by pages/templates, features, integrations, content effort, design complexity, and QA.
+2 Separate one-time implementation from recurring costs.
+3 List third-party costs such as domain, hosting, plugins, SaaS, API usage, and advertising.
+4 Add contingency for unknown integrations and client dependencies.
+5 Define payment milestones and revision limits in writing.
+6 Price support and maintenance separately unless explicitly included.
+
+Commercial proposal structure
+
+Component             What to define
+Discovery / planning  Included workshops, audit, and specification.
+
+Design                Number of screens/templates, revisions, responsive states.
+
+Development           Features, CMS, integrations, content population.
+
+Testing               Browsers/devices, UAT rounds, bug-fix window.
+
+Launch                Deployment, domain/DNS, backups, analytics if included.
+
+Recurring             Hosting, licenses, maintenance, monitoring, support.
+
+Exclusions            New features, copywriting, photography, paid ads, third-party fees unless stated.
+
+Financial discipline
+
+Track time, direct costs, software subscriptions, payment status, revisions, and project margin. Avoid beginning
+substantial work without written scope and an agreed advance/payment milestone.
+
+                                                                                  INTERNAL REFERENCE · 18
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+16. Operations, Roles & Documentation
+
+Operating model
+
+The current context indicates a founder-led or small-team operating environment, but exact staffing and role
+assignments are not confirmed. Use role-based ownership even when one person performs multiple roles.
+
+Role                  Accountability
+Business development  Lead research, qualification, outreach, discovery and proposal follow-up.
+Project lead          Scope, schedule, risks, client communication, approvals and delivery.
+Design                Brand consistency, UI/UX, creative production and design QA.
+Development           Architecture, implementation, integrations, testing and documentation.
+Marketing             Content plan, creative calendar, publishing, campaign tracking and reporting.
+Operations / finance  Contracts, invoices, costs, subscriptions, access register and records.
+
+Recommended folder structure
+
+KK-Technologies/
+sss 00-Company-and-Brand
+sss 01-Sales-and-Leads
+sss 02-Proposals-and-Contracts
+sss 03-Clients/
+s sss Client-Name/
+s sss 01-Discovery
+s sss 02-Assets
+s sss 03-Design
+s sss 04-Development
+s sss 05-QA
+s sss 06-Handover
+sss 04-Marketing-and-Content
+sss 05-Templates-and-SOPs
+sss 06-Finance-and-Admin
+
+Documentation rule
+
+Every active project should have one source of truth for brief, scope, decisions, assets, access ownership, task
+status, approvals, risks, and next actions.
+
+                                    INTERNAL REFERENCE · 19
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+17. Security, Privacy & Responsible AI
+
+Minimum security practices
+
+q Use unique passwords and a password manager; enable multi-factor authentication.
+q Grant least-privilege access and remove access when no longer needed.
+q Never request or store OTPs, payment PINs, or personal passwords in chat or project notes.
+q Use secure credential-sharing methods and rotate exposed keys immediately.
+q Keep backups before production changes and document rollback steps.
+q Do not upload confidential client information to external AI services without permission and policy review.
+
+Responsible AI usage
+
+q Treat AI outputs as drafts; verify code, facts, claims, and citations before delivery.
+q Do not fabricate testimonials, performance metrics, certifications, case-study results, or product claims.
+q Use client-approved assets and check image/font/music licensing and platform terms.
+q Label synthetic product imagery where needed and replace it with authentic product photography when
+
+     available.
+q Keep human approval for legal, financial, health, identity, and other consequential content.
+q Do not use AI to impersonate people or create deceptive customer communications.
+
+Client data handling
+
+Define what data is collected, why it is needed, who can access it, where it is stored, how long it is retained, and
+how it is deleted or returned. Confirm applicable privacy and data-protection requirements for each market.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 20
+       KK TECHNOLOGIES | COMPANY HANDBOOK
+
+18. Growth Roadmap & KPIs
+
+Suggested 90-day operating roadmap
+
+Period           Focus                     Outputs
+
+Days 1-30        Foundation                Finalize brand assets, service menu, proposal template, lead tracker,
+                                           portfolio permissions, website/landing page.
+
+Days 31-60       Pipeline                  Select 1-2 niches, build qualified prospect lists, run consistent outreach,
+                                           publish proof/education content, refine discovery.
+
+Days 61-90       Conversion & delivery     Improve proposal close rate, standardize onboarding and QA, collect
+                                           authorized testimonials, document delivery metrics.
+
+Core KPIs
+
+Area                       Metric
+
+Lead generation            Qualified leads researched, new contacts, positive reply rate.
+
+Sales                      Discovery calls, proposals sent, proposal win rate, average deal value, sales-cycle length.
+
+Delivery                   On-time milestone rate, scope changes, rework rate, QA defects, client acceptance time.
+
+Client success             Client satisfaction, referrals, repeat work, support response time.
+
+Marketing                  Qualified inbound enquiries, website conversion rate, content saves/shares, cost per qualified lead
+                           when ads run.
+
+Financial                  Revenue collected, direct project cost, gross margin, recurring revenue, overdue invoices.
+
+Do not optimize vanity metrics in isolation. Tie reporting to the commercial goal of each channel and client
+project.
+
+                                                                                                INTERNAL REFERENCE · 21
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+19. Master AI Instructions
+
+Copy the following block into another AI tool as the persistent context for KK Technologies.
+
+MASTER CONTEXT -- KK TECHNOLOGIES
+
+Identity: You are assisting KK Technologies, a Full-Service Digital Technology Agency targeting Rajkot,
+India, and international markets.
+
+Brand personality: Premium, modern, minimal, innovative, professional, trustworthy, and future-focused.
+
+Primary brand palette: Black variant: #0A0A0A background, #FF5A1F accent, #FFFFFF primary text,
+#A1A1AA secondary text. Ivory variant: #F8F5F2 background, #FF5A1F accent, #0A0A0A primary text,
+#A1A1AA secondary text.
+
+Visual signature: cinematic premium technology design, controlled orange rim lighting, soft volumetric
+glow, subtle haze, restrained film grain, faint circuit/cracked-tech texture, reflective black surfaces where
+appropriate, and one strong hero object.
+
+Typography: Montserrat ExtraBold or Poppins Bold for headlines; Poppins Regular for body; JetBrains
+Mono for code/technical labels.
+
+Service direction: website design and development, WordPress/WooCommerce, AI chatbot services, social
+media handling, digital growth, and workflow automation. Verify scope and feasibility before promising
+delivery.
+
+Working style: business-first, clear, practical, structured, technically accurate, mobile-first,
+conversion-aware, and honest about limitations.
+
+Client work context: Vaishaliben Foods / Vaishaliben.com -- WooCommerce website and social media
+planning; Labhikrupa Farm Kitchen -- restaurant website demo direction. Protect client logos and assets;
+use case studies only with permission.
+
+Sales: research prospects, identify a specific observable problem, personalize outreach, follow up
+respectfully, qualify before proposing, and document every next action.
+
+Quality: define scope, deliverables, exclusions, approvals, QA, handover, and support responsibilities.
+Never invent prices, results, certifications, client claims, or business facts.
+
+Unknowns: If a fact is not provided, label it "To confirm" and ask a concise question rather than guessing.
+
+Behavior rules for AI assistants
+
+q Do not change the primary logo or locked primary palette without explicit approval.
+q When generating a design prompt, specify canvas size, hierarchy, palette, lighting, focal object, typography,
+
+     logo rules, and negative constraints.
+q When proposing a website, explain the user journey, page structure, responsive behavior, and acceptance
+
+     criteria.
+q When writing sales content, make it specific to the prospect and avoid exaggerated promises.
+q When coding, state assumptions, protect existing working functionality, provide backups/rollback steps, and test
+
+     before claiming success.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 22
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+q Separate confirmed facts from recommendations and unknowns.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 23
+            KK TECHNOLOGIES | COMPANY HANDBOOK
+
+20. Reusable Prompt Templates
+
+A. Brand-aligned social media graphic
+
+Create a premium, minimal, cinematic technology graphic for KK Technologies. Use the primary [Black / Ivory]
+brand variant. Preserve the supplied KK Technologies logo exactly as provided. Use #FF5A1F as the controlled
+accent. Build one strong visual metaphor around: [CORE IDEA]. Headline: [HEADLINE]. Supporting copy: [COPY].
+CTA: [CTA]. Use Poppins/Montserrat-style typography, strong hierarchy, generous negative space, subtle orange
+rim lighting and restrained cinematic depth. Output: [PLATFORM + DIMENSIONS]. Keep all text accurate and
+readable at mobile size. Avoid clutter, extra logos, fake UI text, unrelated icons, and unapproved colors.
+
+B. Website discovery and specification
+
+Act as a senior product strategist and web solution architect for KK Technologies. For this client: [BUSINESS].
+Audience: [AUDIENCE]. Business goal: [GOAL]. Current problem: [PROBLEM]. Prepare discovery questions,
+sitemap, user journeys, page-by-page requirements, CMS/integration needs, responsive behavior, content
+dependencies, risks, acceptance criteria, and a phased delivery plan. Mark all assumptions and unknowns. Do not
+invent client facts.
+
+C. Prospect audit
+
+Act as a B2B digital consultant for KK Technologies. Review only the supplied public-facing business information:
+[URL / DETAILS]. Identify observable issues in mobile usability, trust, content clarity, conversion path, website
+performance indicators, and enquiry flow. Separate evidence from hypotheses. Recommend the top three
+improvements ranked by likely business impact and implementation effort. Produce a personalized outreach angle
+without insulting the business or making unsupported claims.
+
+D. Client proposal
+
+Prepare a professional proposal for [CLIENT]. Business objective: [OBJECTIVE]. Approved scope: [SCOPE].
+Deliverables: [DELIVERABLES]. Timeline: [TIMELINE]. Budget: [APPROVED BUDGET]. Include assumptions,
+exclusions, client responsibilities, third-party costs, revision limits, payment milestones, acceptance criteria,
+change-request process, and support terms. Do not add unapproved services or invented prices.
+
+E. Technical implementation
+
+Act as a careful senior developer supporting KK Technologies. Environment: [STACK]. Current state: [DETAILS].
+Desired change: [CHANGE]. First inspect the relevant code/configuration and identify dependencies. Explain risks,
+take a backup, propose the smallest safe change, implement only within authorized scope, test success and failure
+paths, and provide rollback instructions. Do not expose secrets or claim tests passed unless they were actually run.
+
+F. Monthly content plan
+
+Create a monthly content plan for [CLIENT/KK TECHNOLOGIES]. Business goal: [GOAL]. Audience: [AUDIENCE].
+Platforms: [PLATFORMS]. Brand rules: [PALETTE / TONE]. Available assets: [ASSETS]. Build a calendar with
+topic, hook, key message, format, visual direction, CTA, caption angle, production requirements, and approval
+deadline. Avoid unsupported claims and duplicate ideas.
+
+                                                                                                                                                                 INTERNAL REFERENCE · 24
+KK TECHNOLOGIES | COMPANY HANDBOOK
+
+21. Unknowns & Confirmation Register
+
+The following details were not confirmed in the available project context. They should be completed before this
+handbook is treated as a formal company policy or public-facing profile.
+
+Topic                   Status / information needed
+Legal identity          Legal entity type, registration name/number, GST details, registered address -- To confirm.
+Ownership & team        Founder/owner public title, team members, roles, employment/contractor structure -- To confirm.
+Contact details         Official email, phone/WhatsApp, office address, website and social handles -- To confirm.
+Logo assets             Approved vector/transparent logo files, clear-space rules, minimum size, monochrome variants --
+                        obtain original files.
+Service catalog         Final services, deliverable limits, supported platforms, exclusions, support coverage -- To confirm.
+Pricing                 Official packages, minimum project fee, hourly/day rates, maintenance fees, payment terms -- To
+                        confirm.
+Proof & outcomes        Approved testimonials, case-study permissions, verified performance metrics -- To confirm.
+Operations              Capacity, working hours, response SLA, project management platform, escalation owner -- To
+                        confirm.
+Policies                Contract template, privacy policy, refund/cancellation terms, warranty/support policy -- To confirm.
+Marketing               Official brand voice, approved tagline, active channel palette, posting cadence -- To confirm.
+International delivery  Supported countries, time zones, payment methods, tax/compliance approach -- To confirm.
+
+Recommended next action
+
+Complete the confirmation register, attach the original logo and approved brand assets, add the official
+contact details and rate card, then publish a revised version as the authoritative company handbook.
+
+Document governance
+
+Owner: KK Technologies (owner/approver to confirm). Review cadence: quarterly or whenever service scope,
+brand identity, pricing, tools, or client portfolio changes. Version control: increment the version number and record
+date, editor, and summary of changes.
+
+KK TECHNOLOGIES · BUILDING PRACTICAL DIGITAL SOLUTIONS
+
+End of handbook -- Version 1.0
+
+                                      INTERNAL REFERENCE · 25
+

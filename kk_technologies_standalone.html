@@ -1,0 +1,4360 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KK Technologies — Full-Service Digital Technology Agency &amp; Client Portfolio</title>
+  
+  <!-- SEO & Brand Metadata -->
+  <meta name="description" content="KK Technologies is a full-service digital agency specializing in high-performance websites, WooCommerce e-commerce, AI conversational chatbots, and digital growth systems. Serving Rajkot, India &amp; global clients.">
+  <meta name="keywords" content="KK Technologies, Web Development Agency, Rajkot Web Design, WooCommerce Developers, AI Chatbots, Digital Growth, Full Service Tech Agency">
+  <meta name="author" content="KK Technologies">
+  <meta name="theme-color" content="#08090D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="KK Technologies — Full-Service Digital Technology Agency">
+  <meta property="og:description" content="Intelligence. Innovation. Impact. Translating business challenges into sleek websites, practical automation, and high-converting client experiences.">
+  <meta property="og:image" content="assets/brand_board.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <style>
+/* ==========================================================================
+   KK TECHNOLOGIES - OFFICIAL BRAND & PORTFOLIO STYLESHEET
+   Brand Identity: Midnight Black • Deep Violet • Electric Violet • Orange Glow
+   Typography: Montserrat (Headlines) • Poppins (Body) • JetBrains Mono (Tech)
+   Fully Responsive: Mobile (320px+) • Tablet • Laptop • Ultra-Wide (4K)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Brand Theme Colors */
+  --bg-midnight: #08090D;
+  --bg-deep-violet: #120e24;
+  --bg-surface: rgba(18, 14, 36, 0.72);
+  --bg-surface-hover: rgba(26, 20, 52, 0.88);
+  --bg-card: rgba(18, 14, 36, 0.65);
+  --bg-input: rgba(13, 11, 26, 0.85);
+  
+  /* Primary Accent: Electric Violet */
+  --accent-primary: #7C3AED;
+  --accent-primary-light: #9061F9;
+  --accent-primary-glow: rgba(124, 58, 237, 0.45);
+  --accent-primary-subtle: rgba(124, 58, 237, 0.12);
+
+  /* Signature Orange Accent (KK Technologies Brand Handbook) */
+  --accent-orange: #FF5A1F;
+  --accent-orange-glow: rgba(255, 90, 31, 0.45);
+  --accent-orange-subtle: rgba(255, 90, 31, 0.12);
+
+  /* Electric Cyan Secondary */
+  --accent-cyan: #22D3EE;
+  --accent-cyan-glow: rgba(34, 211, 238, 0.35);
+
+  /* Typography Colors */
+  --text-white: #FFFFFF;
+  --text-soft: #F5F5F7;
+  --text-muted: #9494A3;
+  --text-dim: #646475;
+
+  /* Borders & Dividers */
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(124, 58, 237, 0.35);
+  --border-glow: 0 0 25px rgba(124, 58, 237, 0.25);
+
+  /* Fonts */
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Transitions */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-fast: 0.2s ease;
+  --trans-normal: 0.35s var(--ease-smooth);
+  --trans-slow: 0.6s var(--ease-smooth);
+}
+
+/* Flame Orange Mode Variant */
+body.flame-mode {
+  --accent-primary: #FF5A1F;
+  --accent-primary-light: #FF7A1F;
+  --accent-primary-glow: rgba(255, 90, 31, 0.45);
+  --accent-primary-subtle: rgba(255, 90, 31, 0.12);
+  --border-accent: rgba(255, 90, 31, 0.35);
+  --border-glow: 0 0 25px rgba(255, 90, 31, 0.25);
+}
+
+/* Reset & Base Setup */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--bg-midnight);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-soft);
+  background-color: var(--bg-midnight);
+  line-height: 1.6;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-midnight);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.35);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+/* Responsive Containers */
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+/* Typography Helpers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--text-white);
+  line-height: 1.15;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--trans-fast);
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Interactive Cursor Glow (Desktop Only) */
+.cursor-dot, .cursor-glow {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent-primary);
+}
+
+.cursor-glow {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, var(--accent-primary-glow) 0%, rgba(124, 58, 237, 0) 70%);
+  opacity: 0.35;
+  transition: transform 0.12s ease-out, background 0.4s ease;
+}
+
+@media (pointer: coarse), (hover: none), (max-width: 1024px) {
+  .cursor-dot, .cursor-glow {
+    display: none !important;
+  }
+}
+
+/* Hero Particle Canvas Background */
+#hero-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+/* Background Ambient Glow Orbs */
+.bg-glow-orb {
+  position: absolute;
+  width: min(550px, 90vw);
+  height: min(550px, 90vw);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-primary-glow) 0%, rgba(124, 58, 237, 0) 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+}
+
+.bg-glow-orange {
+  position: absolute;
+  width: min(450px, 80vw);
+  height: min(450px, 80vw);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-orange-glow) 0%, rgba(255, 90, 31, 0) 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.25;
+}
+
+/* Section Wrappers */
+section {
+  position: relative;
+  padding: 90px 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+/* Section Header */
+.section-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 50px auto;
+}
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-family: var(--font-mono);
+  font-size: clamp(0.72rem, 2.2vw, 0.78rem);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary-light);
+  margin-bottom: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.badge-pill .pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary);
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+.badge-pill.orange-pill {
+  background: var(--accent-orange-subtle);
+  border-color: rgba(255, 90, 31, 0.4);
+  color: #FFA07A;
+}
+
+.badge-pill.orange-pill .pulse-dot {
+  background-color: var(--accent-orange);
+  box-shadow: 0 0 10px var(--accent-orange);
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.section-title .text-gradient {
+  background: linear-gradient(135deg, #FFFFFF 20%, var(--accent-primary-light) 65%, #22D3EE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-subtitle {
+  font-size: clamp(0.92rem, 2.5vw, 1.05rem);
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+/* Buttons System */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  min-height: 48px;
+  border-radius: 12px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.94rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all var(--trans-normal);
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, #4F46E5 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 24px var(--accent-primary-glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--accent-primary-glow), 0 0 15px var(--accent-primary);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  color: var(--text-white);
+  backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-primary);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.btn-outline-glow {
+  background: rgba(18, 14, 36, 0.5);
+  border: 1px solid var(--border-accent);
+  color: var(--text-white);
+  box-shadow: inset 0 0 15px var(--accent-primary-subtle);
+}
+
+.btn-outline-glow:hover {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 25px var(--accent-primary-glow);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp:hover {
+  background: #1EBE5D;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45);
+}
+
+/* ==========================================================================
+   NAVIGATION BAR
+   ========================================================================== */
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 16px 0;
+  transition: all 0.3s ease;
+}
+
+.site-nav.scrolled {
+  padding: 10px 0;
+  background: rgba(8, 9, 13, 0.92);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border-glass);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo-img {
+  height: clamp(30px, 5vw, 38px);
+  width: auto;
+  object-fit: contain;
+  transition: transform var(--trans-normal);
+}
+
+.brand-logo:hover .brand-logo-img {
+  transform: scale(1.05);
+}
+
+.brand-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-size: clamp(0.95rem, 3.5vw, 1.15rem);
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  color: var(--text-white);
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.brand-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .brand-tagline {
+    display: none;
+  }
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  position: relative;
+  padding: 6px 0;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--text-white);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--accent-primary);
+  box-shadow: 0 0 8px var(--accent-primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.theme-switch-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  color: var(--text-soft);
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--trans-fast);
+}
+
+.theme-switch-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--accent-primary);
+  color: #FFFFFF;
+}
+
+.mobile-nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text-white);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  line-height: 1;
+}
+
+/* Mobile Drawer */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 85%;
+  max-width: 340px;
+  height: 100vh;
+  height: 100dvh;
+  background: rgba(10, 8, 20, 0.97);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  z-index: 1100;
+  padding: 26px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid var(--border-glass);
+  transition: right 0.35s var(--ease-smooth);
+  overflow-y: auto;
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+.mobile-menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1050;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-menu-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
+
+.mobile-nav-link {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  display: block;
+  padding: 8px 0;
+}
+
+/* ==========================================================================
+   HERO SECTION
+   ========================================================================== */
+.hero-section {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content {
+  max-width: 660px;
+}
+
+.hero-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.hero-headline {
+  font-size: clamp(2.1rem, 5.8vw, 3.4rem);
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  word-break: break-word;
+}
+
+.hero-headline .glow-highlight {
+  position: relative;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.hero-description {
+  font-size: clamp(0.95rem, 2.8vw, 1.15rem);
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  line-height: 1.65;
+}
+
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hero-stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-glass);
+}
+
+.hero-stat-item .stat-number {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.5vw, 1.85rem);
+  font-weight: 800;
+  color: var(--text-white);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.hero-stat-item .stat-label {
+  font-size: clamp(0.75rem, 2vw, 0.82rem);
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* Hero Showcase Card */
+.hero-card-container {
+  perspective: 1200px;
+  position: relative;
+}
+
+.hero-glass-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(26, 18, 48, 0.78) 0%, rgba(10, 8, 20, 0.88) 100%);
+  border: 1px solid var(--border-accent);
+  border-radius: 20px;
+  padding: clamp(18px, 4vw, 30px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), var(--border-glow);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  transform-style: preserve-3d;
+}
+
+.card-terminal-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.terminal-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.terminal-dots span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.terminal-dots span:nth-child(1) { background: #EF4444; }
+.terminal-dots span:nth-child(2) { background: #F59E0B; }
+.terminal-dots span:nth-child(3) { background: #10B981; }
+
+.terminal-title {
+  font-family: var(--font-mono);
+  font-size: clamp(0.68rem, 2vw, 0.78rem);
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 8px;
+}
+
+.hero-brand-board-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.hero-floating-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag-chip {
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-soft);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tech-tag-chip i {
+  color: var(--accent-primary-light);
+}
+
+/* Floating Badges */
+.floating-badge {
+  position: absolute;
+  background: rgba(14, 10, 28, 0.92);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: float 4s ease-in-out infinite;
+  z-index: 10;
+}
+
+.floating-badge.badge-top-right {
+  top: -16px;
+  right: -16px;
+  animation-delay: 0s;
+}
+
+.floating-badge.badge-bottom-left {
+  bottom: -16px;
+  left: -16px;
+  animation-delay: 2s;
+}
+
+.floating-badge-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.badge-top-right .floating-badge-icon {
+  background: var(--accent-primary-subtle);
+  color: var(--accent-primary-light);
+}
+
+.badge-bottom-left .floating-badge-icon {
+  background: var(--accent-orange-subtle);
+  color: var(--accent-orange);
+}
+
+.floating-badge-title {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-white);
+  line-height: 1.2;
+}
+
+.floating-badge-sub {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   ABOUT / PRINCIPLES
+   ========================================================================== */
+.about-section {
+  background: linear-gradient(180deg, var(--bg-midnight) 0%, #0d0a1b 100%);
+  border-top: 1px solid var(--border-glass);
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.pillar-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  padding: clamp(24px, 4vw, 34px);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--trans-normal);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.pillar-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-accent);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), var(--border-glow);
+}
+
+.pillar-icon-box {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.pillar-title {
+  font-size: clamp(1.15rem, 3vw, 1.35rem);
+  margin-bottom: 12px;
+}
+
+.pillar-desc {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   SERVICES
+   ========================================================================== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 18px;
+  padding: clamp(22px, 3.5vw, 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all var(--trans-normal);
+  position: relative;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-accent);
+  background: var(--bg-surface-hover);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), var(--border-glow);
+}
+
+.service-top {
+  margin-bottom: 22px;
+}
+
+.service-icon-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.service-card.orange-theme .service-icon {
+  background: var(--accent-orange-subtle);
+  border-color: rgba(255, 90, 31, 0.35);
+  color: var(--accent-orange);
+}
+
+.service-number {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.service-title {
+  font-size: clamp(1.15rem, 3vw, 1.3rem);
+  margin-bottom: 10px;
+}
+
+.service-description {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.service-deliverables {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-glass);
+}
+
+.service-deliverables li {
+  font-size: 0.82rem;
+  color: var(--text-soft);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-deliverables li i {
+  color: var(--accent-primary-light);
+  font-size: 0.72rem;
+  flex-shrink: 0;
+}
+
+.service-card.orange-theme .service-deliverables li i {
+  color: var(--accent-orange);
+}
+
+.service-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.86rem;
+  color: var(--accent-primary-light);
+  cursor: pointer;
+}
+
+.service-card.orange-theme .service-cta-link {
+  color: var(--accent-orange);
+}
+
+.service-cta-link:hover {
+  gap: 12px;
+}
+
+/* ==========================================================================
+   PORTFOLIO & CASE STUDIES
+   ========================================================================== */
+.portfolio-section {
+  position: relative;
+  background: linear-gradient(180deg, #090714 0%, var(--bg-midnight) 100%);
+}
+
+.portfolio-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  padding: 9px 20px;
+  border-radius: 9999px;
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--trans-fast);
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-white);
+}
+
+.filter-btn.active {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px var(--accent-primary-glow);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all var(--trans-normal);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-accent);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), var(--border-glow);
+}
+
+.placeholder-indicator-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 5;
+  background: rgba(8, 9, 13, 0.88);
+  border: 1px solid var(--border-glass);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-media-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 58%;
+  background: #0d0a1a;
+  overflow: hidden;
+}
+
+.project-media-wrap img, .project-media-wrap svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease-smooth);
+}
+
+.project-card:hover .project-media-wrap img,
+.project-card:hover .project-media-wrap svg {
+  transform: scale(1.04);
+}
+
+.project-media-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 9, 13, 0) 35%, rgba(8, 9, 13, 0.92) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.project-quick-btn {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: all var(--trans-normal);
+}
+
+.project-card:hover .project-quick-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-body {
+  padding: clamp(20px, 3.5vw, 26px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.project-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-category-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent-primary-light);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.project-year {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.project-title {
+  font-size: clamp(1.2rem, 3.2vw, 1.45rem);
+  margin-bottom: 10px;
+}
+
+.project-excerpt {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+.project-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  margin-bottom: 18px;
+}
+
+.metric-pill .metric-value {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+  font-weight: 800;
+  color: #10B981;
+}
+
+.metric-pill .metric-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.project-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-glass);
+  gap: 10px;
+}
+
+.project-stack-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.stack-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-soft);
+}
+
+.view-case-study-btn {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.86rem;
+  color: var(--text-white);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.view-case-study-btn:hover {
+  color: var(--accent-primary-light);
+  gap: 10px;
+}
+
+/* ==========================================================================
+   SCOPE & ESTIMATOR (CALCULATOR)
+   ========================================================================== */
+.estimator-section {
+  background: linear-gradient(180deg, var(--bg-midnight) 0%, #100b24 100%);
+  border-top: 1px solid var(--border-glass);
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.estimator-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-accent);
+  border-radius: 22px;
+  padding: clamp(20px, 4vw, 42px);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6), var(--border-glow);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.estimator-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+}
+
+.step-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent-primary-light);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.estimator-step-title {
+  font-size: clamp(1rem, 2.8vw, 1.15rem);
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.options-pill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.scope-option-card {
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  cursor: pointer;
+  transition: all var(--trans-fast);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.scope-option-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: var(--border-accent);
+}
+
+.scope-option-card.selected {
+  background: var(--accent-primary-subtle);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 15px var(--accent-primary-subtle);
+}
+
+.scope-option-card.selected .check-circle {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #FFFFFF;
+}
+
+.check-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid var(--border-glass);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  color: transparent;
+  flex-shrink: 0;
+  transition: var(--trans-fast);
+}
+
+.option-text .opt-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-white);
+  display: block;
+}
+
+.option-text .opt-desc {
+  font-size: 0.73rem;
+  color: var(--text-muted);
+}
+
+.estimator-summary-panel {
+  background: rgba(10, 8, 20, 0.85);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  padding: clamp(20px, 3vw, 28px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary-heading {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.summary-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+
+.summary-item-row .label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.summary-item-row .value {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-white);
+  text-align: right;
+}
+
+.selected-features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.feature-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary-light);
+}
+
+.summary-guarantee-note {
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+  margin-bottom: 18px;
+}
+
+/* ==========================================================================
+   DELIVERY SOP
+   ========================================================================== */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.process-step-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  padding: clamp(20px, 3vw, 28px);
+  transition: all var(--trans-normal);
+}
+
+.process-step-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-accent);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.step-num-badge {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent-primary-light);
+  margin-bottom: 12px;
+}
+
+.process-card-title {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.process-card-desc {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+/* ==========================================================================
+   TECH STACK
+   ========================================================================== */
+.tech-stack-section {
+  background: var(--bg-midnight);
+}
+
+.tech-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.tech-cat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  padding: 24px 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.tech-cat-title {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-cat-title i {
+  color: var(--accent-primary-light);
+}
+
+.tech-chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.tech-badge-item {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 5px 10px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  color: var(--text-soft);
+  transition: var(--trans-fast);
+}
+
+.tech-badge-item:hover {
+  border-color: var(--accent-primary);
+  background: var(--accent-primary-subtle);
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   TESTIMONIALS
+   ========================================================================== */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testimonial-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 18px;
+  padding: clamp(22px, 3.5vw, 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transition: all var(--trans-normal);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-accent);
+}
+
+.testimonial-stars {
+  color: #F59E0B;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+}
+
+.testimonial-quote {
+  font-size: 0.92rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.client-author-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-glass);
+}
+
+.client-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--text-white);
+  font-family: var(--font-display);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.client-name {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.client-role {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   CONTACT SECTION
+   ========================================================================== */
+.contact-section {
+  position: relative;
+  background: linear-gradient(180deg, var(--bg-midnight) 0%, #0d081f 100%);
+  border-top: 1px solid var(--border-glass);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 40px;
+}
+
+.contact-info-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 26px 0;
+}
+
+.contact-method-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  transition: all var(--trans-fast);
+}
+
+.contact-method-card:hover {
+  background: var(--bg-surface-hover);
+  border-color: var(--border-accent);
+  transform: translateX(4px);
+}
+
+.contact-method-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--accent-primary-subtle);
+  border: 1px solid var(--border-accent);
+  color: var(--accent-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.contact-method-text .method-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-method-text .method-val {
+  font-family: var(--font-display);
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  font-weight: 700;
+  color: var(--text-white);
+  word-break: break-word;
+}
+
+/* Contact Form Box */
+.contact-form-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-accent);
+  border-radius: 22px;
+  padding: clamp(20px, 4vw, 38px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), var(--border-glow);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.form-group-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  margin-bottom: 7px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 12px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-glass);
+  color: var(--text-white);
+  font-family: var(--font-body);
+  font-size: 16px; /* 16px minimum prevents iOS zoom bug */
+  transition: all var(--trans-fast);
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 15px var(--accent-primary-subtle);
+  background: rgba(18, 14, 36, 0.95);
+}
+
+.form-control::placeholder {
+  color: var(--text-dim);
+}
+
+select.form-control option {
+  background: var(--bg-midnight);
+  color: var(--text-white);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 105px;
+}
+
+/* ==========================================================================
+   CASE STUDY MODAL
+   ========================================================================== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 5, 8, 0.9);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.case-study-modal {
+  width: 100%;
+  max-width: 900px;
+  max-height: 90vh;
+  max-height: 90dvh;
+  background: linear-gradient(145deg, #120e26 0%, #090712 100%);
+  border: 1px solid var(--border-accent);
+  border-radius: 22px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.8), var(--border-glow);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  transform: scale(0.95) translateY(20px);
+  transition: transform 0.35s var(--ease-smooth);
+}
+
+.modal-backdrop.active .case-study-modal {
+  transform: scale(1) translateY(0);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-glass);
+  color: var(--text-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: var(--trans-fast);
+  z-index: 20;
+}
+
+.modal-close-btn:hover {
+  background: #EF4444;
+  border-color: #EF4444;
+}
+
+.modal-hero-banner {
+  width: 100%;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  background: #08090D;
+}
+
+.modal-hero-banner img, .modal-hero-banner svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-content-body {
+  padding: clamp(20px, 4vw, 36px);
+}
+
+.modal-title-wrap {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.modal-title {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  margin-bottom: 8px;
+}
+
+.modal-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  margin-bottom: 24px;
+}
+
+.modal-meta-item .meta-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.modal-meta-item .meta-val {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-white);
+  word-break: break-word;
+}
+
+.modal-text-block {
+  margin-bottom: 24px;
+}
+
+.modal-text-block h4 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  color: var(--accent-primary-light);
+}
+
+.modal-text-block p {
+  color: var(--text-muted);
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+
+.modal-results-box {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(124, 58, 237, 0.08) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 28px;
+}
+
+.modal-results-title {
+  color: #10B981;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-footer-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-glass);
+  gap: 16px;
+}
+
+/* ==========================================================================
+   TOAST & FLOATING BUTTONS
+   ========================================================================== */
+.toast-notice {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  max-width: 90vw;
+  background: rgba(14, 10, 28, 0.96);
+  border: 1px solid var(--accent-primary);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), var(--border-glow);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 14px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100000;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.35s var(--ease-smooth);
+}
+
+.toast-notice.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-icon {
+  font-size: 1.2rem;
+  color: #10B981;
+  flex-shrink: 0;
+}
+
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+  z-index: 999;
+  cursor: pointer;
+  transition: all var(--trans-normal);
+}
+
+.floating-whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 35px rgba(37, 211, 102, 0.6);
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.site-footer {
+  background: #050608;
+  border-top: 1px solid var(--border-glass);
+  padding: 60px 0 24px 0;
+  position: relative;
+}
+
+.footer-top-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 0.8fr 1fr;
+  gap: 36px;
+  margin-bottom: 50px;
+}
+
+.footer-brand-col p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 16px 0;
+  max-width: 320px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-soft);
+  transition: var(--trans-fast);
+}
+
+.footer-social-btn:hover {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.footer-col-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: var(--text-white);
+}
+
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-nav-list a {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+}
+
+.footer-nav-list a:hover {
+  color: var(--text-white);
+  padding-left: 4px;
+}
+
+.footer-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-glass);
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  gap: 12px;
+}
+
+/* Keyframe Animations */
+@keyframes pulse {
+  0% { transform: scale(0.95); opacity: 0.7; }
+  50% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.7; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ==========================================================================
+   COMPREHENSIVE RESPONSIVE BREAKPOINTS
+   1024px (Laptops / Tablets Horiz)
+   768px (Tablets / Phablets)
+   640px (Standard Phones)
+   480px (Compact Mobile / iPhone SE)
+   ========================================================================== */
+
+/* Tablet & Smaller Laptops (<= 1024px) */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .hero-badge-row, .hero-cta-group {
+    justify-content: center;
+  }
+  .hero-stats-strip {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .hero-card-container {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  .pillars-grid, .services-grid, .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tech-categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-top-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+/* Mobile & Tablets (<= 768px) */
+@media (max-width: 768px) {
+  .nav-links, .theme-switch-btn, .nav-actions .btn {
+    display: none;
+  }
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  /* Prevent floating badges from bleeding off screen */
+  .floating-badge.badge-top-right {
+    top: 10px;
+    right: 10px;
+  }
+  .floating-badge.badge-bottom-left {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .estimator-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .modal-hero-banner {
+    height: 220px;
+  }
+  .modal-meta-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .modal-footer-cta {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .modal-book-similar-btn {
+    width: 100%;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}
+
+/* Mobile Phones (<= 640px) */
+@media (max-width: 640px) {
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  /* Stack hero stats cleanly */
+  .hero-stats-strip {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid var(--border-glass);
+  }
+  .hero-stat-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .hero-stat-item:last-child {
+    border-bottom: none;
+  }
+  .hero-stat-item .stat-number {
+    margin-bottom: 0;
+  }
+
+  .pillars-grid, .services-grid, .testimonials-grid, .process-grid, .tech-categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .options-pill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .portfolio-filter-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 4px 4px 12px 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .portfolio-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp-btn {
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Compact Mobile (<= 480px) */
+@media (max-width: 480px) {
+  .site-nav {
+    padding: 12px 0;
+  }
+  .brand-logo-img {
+    height: 32px;
+  }
+  .brand-name {
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+  }
+
+  .floating-badge {
+    display: none; /* Hide floating badges on narrow screens so mockup takes center stage */
+  }
+
+  .project-metrics-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .project-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .view-case-study-btn {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .estimator-box, .contact-form-box {
+    padding: 18px 14px;
+    border-radius: 16px;
+  }
+
+  .modal-backdrop {
+    padding: 12px;
+  }
+  .modal-hero-banner {
+    height: 180px;
+  }
+  .modal-content-body {
+    padding: 18px 14px;
+  }
+  .modal-meta-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-metrics-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Custom Glowing Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- Background Ambient Glow Orbs -->
+  <div class="bg-glow-orb" style="top: 10%; left: -10%;"></div>
+  <div class="bg-glow-orange" style="top: 35%; right: -10%;"></div>
+  <div class="bg-glow-orb" style="top: 75%; left: 20%;"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="KK Technologies Home">
+        <img src="assets/kk_logo_white.png" alt="KK Technologies Logo" class="brand-logo-img">
+        <div class="brand-text-wrap">
+          <span class="brand-name">KK TECHNOLOGIES</span>
+          <span class="brand-tagline">DIGITAL AGENCY • RAJKOT • GLOBAL</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#estimator" class="nav-link">Scope Calculator</a></li>
+          <li><a href="#process" class="nav-link">SOP Process</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Switch & CTA) -->
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="theme-switch-btn" aria-label="Toggle Glow Accent (Violet / KK Orange)">
+          <i class="fa-solid fa-fire" title="Toggle Flame Orange Accent"></i>
+        </button>
+        <a href="#contact" class="btn btn-outline-glow" style="padding: 10px 20px; font-size: 0.88rem;">
+          <span>Start a Project</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Open Mobile Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu-backdrop"></div>
+  <div class="mobile-menu">
+    <div>
+      <div class="mobile-menu-header">
+        <img src="assets/kk_logo_white.png" alt="KK Technologies" style="height: 32px;">
+        <button class="mobile-close-btn" aria-label="Close menu" style="background:none; border:none; color:#fff; font-size:1.5rem; cursor:pointer; width:44px; height:44px; display:flex; align-items:center; justify-content:center;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Theme Accent Switcher -->
+      <div style="margin-bottom: 20px; padding: 12px 14px; background: rgba(255,255,255,0.04); border-radius: 12px; border: 1px solid var(--border-glass); display: flex; align-items: center; justify-content: space-between;">
+        <span style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--text-soft); display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-palette" style="color: var(--accent-primary-light);"></i> Accent Mode
+        </span>
+        <button id="mobile-theme-toggle-btn" class="theme-switch-btn" aria-label="Toggle Glow Accent (Violet / KK Orange)">
+          <i class="fa-solid fa-fire" title="Toggle Flame Orange Accent"></i>
+        </button>
+      </div>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Agency</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link">Case Studies &amp; Work</a></li>
+        <li><a href="#estimator" class="mobile-nav-link">Project Scope Calculator</a></li>
+        <li><a href="#process" class="mobile-nav-link">Execution SOP</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Book Discovery Call</a></li>
+      </ul>
+    </div>
+    <div style="padding-top: 20px; border-top: 1px solid var(--border-glass);">
+      <a href="https://wa.me/919999999999" target="_blank" class="btn btn-whatsapp" style="width: 100%; margin-bottom: 12px;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+      <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-dim); text-align: center;">
+        Intelligence. Innovation. Impact.
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero-section">
+      <!-- Interactive Particle Canvas -->
+      <canvas id="hero-canvas"></canvas>
+
+      <div class="container hero-grid">
+        <!-- Left Hero Copy -->
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <span class="badge-pill">
+              <span class="pulse-dot"></span>
+              Full-Service Digital Technology Agency
+            </span>
+            <span class="badge-pill orange-pill">
+              <i class="fa-solid fa-location-dot"></i> Rajkot • India • Global
+            </span>
+          </div>
+
+          <h1 class="hero-headline">
+            We Engineer Digital Experiences That <span class="text-gradient">Grow Your Business.</span>
+          </h1>
+
+          <p class="hero-description">
+            We help ambitious brands, retailers, and founders translate complex business problems into high-performing websites, streamlined e-commerce systems, AI conversational assistants, and scalable growth funnels.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-primary">
+              <span>View Client Portfolio</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#estimator" class="btn btn-secondary">
+              <i class="fa-solid fa-calculator"></i>
+              <span>Estimate Project Scope</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics Strip -->
+          <div class="hero-stats-strip">
+            <div class="hero-stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Delivery &amp; Scope Commitment</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">AI-Enabled Lead Automation</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">&lt; 1.0s</div>
+              <div class="stat-label">Optimized Mobile Page Speed</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Showcase Card (Interactive 3D Tilt) -->
+        <div class="hero-card-container">
+          <div class="hero-glass-card">
+            <!-- Floating Metric Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="floating-badge-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div>
+                <div class="floating-badge-title">Pixel-Perfect UI</div>
+                <div class="floating-badge-sub">Mobile-First Standard</div>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="floating-badge-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <div class="floating-badge-title">High Conversion</div>
+                <div class="floating-badge-sub">Built for ROI &amp; Trust</div>
+              </div>
+            </div>
+
+            <!-- Terminal Topbar -->
+            <div class="card-terminal-bar">
+              <div class="terminal-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-title">KK_TECHNOLOGIES // CORE_IDENTITY.SYS</div>
+              <div style="font-size: 0.75rem; color: #10B981;">
+                <i class="fa-solid fa-circle" style="font-size: 0.5rem;"></i> Active
+              </div>
+            </div>
+
+            <!-- Brand Board Showcase Image -->
+            <img src="assets/brand_board.jpg" alt="KK Technologies Brand Identity Moodboard" class="hero-brand-board-img">
+
+            <!-- Interactive Technology Tags -->
+            <div class="hero-floating-pills">
+              <span class="tech-tag-chip"><i class="fa-brands fa-html5"></i> Modern Web</span>
+              <span class="tech-tag-chip"><i class="fa-brands fa-wordpress"></i> WooCommerce</span>
+              <span class="tech-tag-chip"><i class="fa-solid fa-robot"></i> AI Chatbots</span>
+              <span class="tech-tag-chip"><i class="fa-solid fa-bullhorn"></i> Meta Ads Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AGENCY IDENTITY & OPERATING PRINCIPLES (FROM HANDBOOK)
+         ========================================================================== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Operating Principles</span>
+          <h2 class="section-title">Built with <span class="text-gradient">Purpose &amp; Precision</span></h2>
+          <p class="section-subtitle">
+            At KK Technologies, we don't sell technology for its own sake. We design and engineer dependable digital systems that solve real commercial bottlenecks for your company.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3 class="pillar-title">Business-First Strategy</h3>
+            <p class="pillar-desc">
+              Every design decision, line of code, and automation workflow starts with the client's commercial problem — not trendy buzzwords. We focus on customer journey, conversion, and retention.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <h3 class="pillar-title">Clarity Over Complexity</h3>
+            <p class="pillar-desc">
+              We eliminate technical clutter and code bloat. We build maintainable, lightning-fast digital solutions that your team can comfortably manage and scale without constant reliance on developers.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="pillar-title">Execution Discipline</h3>
+            <p class="pillar-desc">
+              From our clear 6-stage delivery SOP to transparent scopes and milestone approvals, we ensure you always know what is being built, when it will be delivered, and how it will perform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CORE SERVICES (DETAILED SERVICE SUITE)
+         ========================================================================== */ -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Full-Service Capabilities</span>
+          <h2 class="section-title">End-to-End <span class="text-gradient">Digital Services</span></h2>
+          <p class="section-subtitle">
+            Comprehensive digital solutions designed to elevate your brand presence, capture qualified customer inquiries, and automate repetitive business workflows.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Website Design & Development -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="service-number">01 // DEV</span>
+              </div>
+              <h3 class="service-title">Website Design &amp; Development</h3>
+              <p class="service-description">
+                Custom high-impact business websites, landing pages, and responsive portals engineered for speed, clean aesthetics, and instant trust.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Responsive Mobile-First Architecture</li>
+                <li><i class="fa-solid fa-check"></i> High-Speed Semantic HTML5 / CSS3</li>
+                <li><i class="fa-solid fa-check"></i> On-Page Technical SEO &amp; Analytics</li>
+                <li><i class="fa-solid fa-check"></i> WordPress / Elementor / Headless CMS</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Discuss Website Project</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 2: E-Commerce & WooCommerce (Orange Variant) -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <span class="service-number">02 // COMMERCE</span>
+              </div>
+              <h3 class="service-title">E-Commerce &amp; WooCommerce</h3>
+              <p class="service-description">
+                High-converting online stores built for seamless product discovery, frictionless 1-click checkouts, and automated inventory sync.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> WooCommerce / Shopify Customization</li>
+                <li><i class="fa-solid fa-check"></i> Razorpay / Stripe Payment Integrations</li>
+                <li><i class="fa-solid fa-check"></i> Cart Abandonment Recovery Funnels</li>
+                <li><i class="fa-solid fa-check"></i> Shipping &amp; Tax Automation Rules</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Launch Your Store</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 3: AI Chatbots & Conversational Agents -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <span class="service-number">03 // AI</span>
+              </div>
+              <h3 class="service-title">AI Chatbots &amp; Conversational Agents</h3>
+              <p class="service-description">
+                Intelligent conversational assistants deployed on your website and WhatsApp to capture leads and answer FAQs 24/7 without delays.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Custom Trained Company Knowledge Base</li>
+                <li><i class="fa-solid fa-check"></i> WhatsApp Cloud API Direct Integration</li>
+                <li><i class="fa-solid fa-check"></i> Instant Lead Qualification &amp; Routing</li>
+                <li><i class="fa-solid fa-check"></i> CRM Sync (HubSpot, Sheets, Zoho)</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Deploy AI Assistant</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 4: Digital Growth & Performance Marketing -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <span class="service-number">04 // GROWTH</span>
+              </div>
+              <h3 class="service-title">Digital Growth &amp; Ad Funnels</h3>
+              <p class="service-description">
+                Targeted lead generation campaigns and conversion rate optimization (CRO) that turn casual visitors into paying customers.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> High-Converting Landing Page Sprints</li>
+                <li><i class="fa-solid fa-check"></i> Meta &amp; Google Ads Campaign Setup</li>
+                <li><i class="fa-solid fa-check"></i> Conversion Tracking &amp; Event Pixels</li>
+                <li><i class="fa-solid fa-check"></i> Funnel Drop-off Analysis &amp; Testing</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Scale Inbound Leads</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 5: Social Media Handling & Brand Content -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-film"></i>
+                </div>
+                <span class="service-number">05 // MEDIA</span>
+              </div>
+              <h3 class="service-title">Social Media &amp; Cinematic Content</h3>
+              <p class="service-description">
+                Premium cinematic technology graphics, engaging reel concepts, and structured monthly content calendars that establish industry authority.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Monthly Content Planning &amp; Direction</li>
+                <li><i class="fa-solid fa-check"></i> Cinematic 3D Tech Style Visuals</li>
+                <li><i class="fa-solid fa-check"></i> Problem-to-Solution Explainers</li>
+                <li><i class="fa-solid fa-check"></i> Consistent Multi-Platform Branding</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Elevate Social Brand</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 6: Workflow Automation & Integrations -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <span class="service-number">06 // AUTO</span>
+              </div>
+              <h3 class="service-title">Workflow Automation &amp; APIs</h3>
+              <p class="service-description">
+                Audit manual bottlenecks and connect your disparate business tools to eliminate repetitive data entry and human error.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Custom Webhook &amp; REST API Pipelines</li>
+                <li><i class="fa-solid fa-check"></i> Automatic Invoice &amp; PDF Generation</li>
+                <li><i class="fa-solid fa-check"></i> Multi-channel Notification Alerts</li>
+                <li><i class="fa-solid fa-check"></i> Secure Role-Based Access Standards</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Automate Workflows</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT PORTFOLIO & CASE STUDIES (SHOWSTOPPER SECTION)
+         ========================================================================== -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Selected Works</span>
+          <h2 class="section-title">Engineered to <span class="text-gradient">Convert &amp; Inspire</span></h2>
+          <p class="section-subtitle">
+            Explore our featured client solutions and prototype architectures. Each project is engineered with strict adherence to conversion psychology, speed benchmarks, and brand consistency.
+          </p>
+        </div>
+
+        <!-- Filter Buttons Bar -->
+        <div class="portfolio-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="web">Web &amp; UI/UX</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Automation</button>
+          <button class="filter-btn" data-filter="growth">Growth &amp; Funnels</button>
+        </div>
+
+        <!-- Portfolio Projects Grid -->
+        <div class="portfolio-grid">
+          
+          <!-- PROJECT 1: Vaishaliben Foods (Handbook Real Case) -->
+          <div class="project-card" data-category="ecommerce growth">
+            <div class="placeholder-indicator-badge">
+              <i class="fa-solid fa-circle-check"></i> Confirmed Client Case Context
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="vaishaliben" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your actual screenshot, e.g. assets/projects/vaishaliben.jpg -->
+              <img src="assets/projects/vaishaliben.svg" alt="Vaishaliben Foods E-Commerce Storefront">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="vaishaliben">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">E-Commerce • Packaged Foods</span>
+                  <span class="project-year">2026 // RAJKOT</span>
+                </div>
+                <h3 class="project-title">Vaishaliben Foods</h3>
+                <p class="project-excerpt">
+                  End-to-end WooCommerce storefront redevelopment with dynamic product page architecture, mobile-optimized checkout flows, and Meta Ads winter nourishment funnels.
+                </p>
+                <!-- Key Results Highlight -->
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">0.78s</div>
+                    <div class="metric-label">Mobile Load Speed</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">+240%</div>
+                    <div class="metric-label">Checkout Conversion</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">WooCommerce</span>
+                  <span class="stack-badge">Custom PHP</span>
+                  <span class="stack-badge">Elementor</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="vaishaliben">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Labhikrupa Farm Kitchen (Handbook Real Case) -->
+          <div class="project-card" data-category="web">
+            <div class="placeholder-indicator-badge">
+              <i class="fa-solid fa-compass-drafting"></i> Concept &amp; Demo Direction Ready
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="labhikrupa" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your actual restaurant photos/screenshots -->
+              <img src="assets/projects/labhikrupa.svg" alt="Labhikrupa Farm Kitchen Restaurant Digital Presence">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="labhikrupa">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Restaurant &amp; Dining UI/UX</span>
+                  <span class="project-year">2026 // GUJARAT</span>
+                </div>
+                <h3 class="project-title">Labhikrupa Farm Kitchen</h3>
+                <p class="project-excerpt">
+                  Balancing rooted Kathiyawadi hospitality with a contemporary mobile-first digital experience, instant zero-download QR menu, and 1-tap WhatsApp table reservation engine.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">&lt; 0.5s</div>
+                    <div class="metric-label">Instant QR Menu Speed</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">4.9 ★</div>
+                    <div class="metric-label">Google Discovery Footprint</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Mobile UI/UX</span>
+                  <span class="stack-badge">QR Engine</span>
+                  <span class="stack-badge">WhatsApp API</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="labhikrupa">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Apex Logistics Cloud (B2B Web App & Automation Placeholder) -->
+          <div class="project-card" data-category="web ai">
+            <div class="placeholder-indicator-badge" style="color: #38BDF8;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="apex" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your B2B / SaaS client screenshot -->
+              <img src="assets/projects/apex_logistics.svg" alt="Apex Logistics Cloud Portal Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="apex">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Supply Chain • Web Portal</span>
+                  <span class="project-year">2026 // ENTERPRISE</span>
+                </div>
+                <h3 class="project-title">Apex Logistics &amp; Fleet Cloud</h3>
+                <p class="project-excerpt">
+                  Centralized freight dispatching web portal with real-time GPS tracking webhooks, automated electronic consignment notes, and instant client quotation calculators.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">-65%</div>
+                    <div class="metric-label">Manual Admin Hours</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">99.8%</div>
+                    <div class="metric-label">System Uptime SLA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Python</span>
+                  <span class="stack-badge">SQL</span>
+                  <span class="stack-badge">Webhooks</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="apex">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Aura AI Conversational Agent (AI Chatbot Placeholder) -->
+          <div class="project-card" data-category="ai">
+            <div class="placeholder-indicator-badge" style="color: #A855F7;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="aura" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your AI bot dashboard or WhatsApp chat screenshot -->
+              <img src="assets/projects/aura_ai.svg" alt="Aura AI Conversational Assistant Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="aura">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">AI Chatbots • Automation</span>
+                  <span class="project-year">2026 // GLOBAL</span>
+                </div>
+                <h3 class="project-title">Aura AI Support &amp; Qualifier</h3>
+                <p class="project-excerpt">
+                  Autonomous 24/7 customer engagement bot connected to WhatsApp and web, trained on proprietary company docs to answer technical queries and auto-qualify inbound sales leads.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">99.2%</div>
+                    <div class="metric-label">Autonomous Resolution</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">&lt; 3 Sec</div>
+                    <div class="metric-label">24/7 Response Time</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Gemini / Claude</span>
+                  <span class="stack-badge">WhatsApp API</span>
+                  <span class="stack-badge">CRM Routing</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="aura">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: Zenith Luxury Estates (Real Estate UI Placeholder) -->
+          <div class="project-card" data-category="web">
+            <div class="placeholder-indicator-badge" style="color: #F59E0B;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="zenith" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your luxury real estate or architectural showcase screenshot -->
+              <img src="assets/projects/zenith_living.svg" alt="Zenith Luxury Living Real Estate Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="zenith">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Luxury Real Estate • 3D Showcase</span>
+                  <span class="project-year">2026 // ARCHITECTURE</span>
+                </div>
+                <h3 class="project-title">Zenith Luxury Estates</h3>
+                <p class="project-excerpt">
+                  Cinematic, minimalist architectural showcase with interactive 360° virtual tours, interactive villa floorplans, and private concierge booking for high-net-worth investors.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">₹35+ Cr</div>
+                    <div class="metric-label">HNW Pipeline Generated</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">68%</div>
+                    <div class="metric-label">VIP Tour Bookings</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">HTML5 / CSS3</span>
+                  <span class="stack-badge">3D Virtual Tour</span>
+                  <span class="stack-badge">VIP Lead Funnel</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="zenith">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 6: PulseFit D2C Nutrition (E-Commerce Funnel Placeholder) -->
+          <div class="project-card" data-category="ecommerce growth">
+            <div class="placeholder-indicator-badge" style="color: #10B981;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="pulsefit" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your D2C client screenshot -->
+              <img src="assets/projects/pulsefit.svg" alt="PulseFit Performance Nutrition Store Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="pulsefit">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">D2C Nutrition • Growth Funnel</span>
+                  <span class="project-year">2026 // D2C BRAND</span>
+                </div>
+                <h3 class="project-title">PulseFit Performance Nutrition</h3>
+                <p class="project-excerpt">
+                  High-velocity direct-to-consumer store with 1-click bundle upsells, sticky add-to-cart controls, dynamic free-gift progress bars, and Meta Pixel Conversion API tracking.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">+310%</div>
+                    <div class="metric-label">Store Revenue Growth</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">4.2x</div>
+                    <div class="metric-label">Meta Ads ROAS</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">WooCommerce</span>
+                  <span class="stack-badge">Sticky Checkout</span>
+                  <span class="stack-badge">Meta Pixel CAPI</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="pulsefit">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE PROJECT SCOPE & PROPOSAL ESTIMATOR (CLIENT CLOSER WIDGET)
+         ========================================================================== -->
+    <section id="estimator" class="estimator-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill orange-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Instant Scope Discovery</span>
+          <h2 class="section-title">Calculate Your <span class="text-gradient">Project Architecture</span></h2>
+          <p class="section-subtitle">
+            Configure your technical requirements below to instantly generate a recommended stack, delivery timeline, and customized proposal brief.
+          </p>
+        </div>
+
+        <div class="estimator-box">
+          <div class="estimator-grid">
+            
+            <!-- Left Controls -->
+            <div class="estimator-controls">
+              <!-- Step 1: Service Type -->
+              <span class="step-label">01 // SELECT CORE SYSTEM</span>
+              <h3 class="estimator-step-title">What type of digital solution do you need?</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card service-opt selected" 
+                     data-name="E-Commerce &amp; Storefront Architecture" 
+                     data-stack="WooCommerce / Custom PHP / Next-gen Funnel">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">E-Commerce Store</span>
+                    <span class="opt-desc">WooCommerce, Shopify, Payment Gateways</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="High-Performance Corporate Website" 
+                     data-stack="Semantic HTML5 / CSS3 / Elementor Pro">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Business Website</span>
+                    <span class="opt-desc">Brand Showcase, Lead Forms, SEO</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="AI Conversational Chatbot &amp; WhatsApp Bot" 
+                     data-stack="Gemini Pro / Claude / WhatsApp Cloud API">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">AI Chatbot Agent</span>
+                    <span class="opt-desc">24/7 Lead Routing &amp; FAQ Answering</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="Full-Service Growth &amp; Content Suite" 
+                     data-stack="Landing Pages / Meta Ads / 3D Creative Direction">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Growth &amp; Social Suite</span>
+                    <span class="opt-desc">Ad Funnels, 3D Visuals, Monthly Content</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 2: Key Features -->
+              <span class="step-label">02 // SELECT INTEGRATIONS &amp; MODULES</span>
+              <h3 class="estimator-step-title">Select features required for your project:</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card feature-opt selected" data-feature="Payment Gateways (Razorpay/Stripe)">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Payment Gateways</span>
+                    <span class="opt-desc">Razorpay, UPI, International Cards</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt selected" data-feature="WhatsApp Order Alerts &amp; Chat">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">WhatsApp Integration</span>
+                    <span class="opt-desc">Direct inquiry &amp; automated notification</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt selected" data-feature="Mobile UX Optimization">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Sub-1s Mobile Speed</span>
+                    <span class="opt-desc">Ultra-fast asset compression &amp; caching</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt" data-feature="Custom CRM Lead Webhooks">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">CRM Lead Sync</span>
+                    <span class="opt-desc">HubSpot, Google Sheets, Zoho sync</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 3: Urgency -->
+              <span class="step-label">03 // DELIVERY TIMELINE TARGET</span>
+              <h3 class="estimator-step-title">What is your launch schedule?</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card timeline-opt" data-timeline="Fast-Track Sprint (10 to 14 Days)">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">⚡ Fast-Track Sprint</span>
+                    <span class="opt-desc">10–14 Days Urgent Turnaround</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card timeline-opt selected" data-timeline="3 to 4 Weeks">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">★ Standard Delivery</span>
+                    <span class="opt-desc">3–4 Weeks Thorough Build &amp; QA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Summary Output Card -->
+            <div class="estimator-summary-panel">
+              <div>
+                <h4 class="summary-heading">
+                  <i class="fa-solid fa-receipt" style="color: var(--accent-primary-light);"></i> Scope Summary
+                </h4>
+
+                <div class="summary-item-row">
+                  <span class="label">Architecture:</span>
+                  <span class="value" id="calc-service-name">E-Commerce &amp; Storefront Architecture</span>
+                </div>
+
+                <div class="summary-item-row">
+                  <span class="label">Target Timeline:</span>
+                  <span class="value" id="calc-timeline-val" style="color: #10B981;">3 to 4 Weeks</span>
+                </div>
+
+                <div class="summary-item-row">
+                  <span class="label">Tech Stack:</span>
+                  <span class="value" id="calc-stack-val" style="font-size: 0.85rem; color: #C4B5FD;">WooCommerce / PHP</span>
+                </div>
+
+                <div style="margin-top: 18px; margin-bottom: 8px;">
+                  <span class="label" style="display: block; margin-bottom: 8px;">Included Key Modules:</span>
+                  <div class="selected-features-list" id="calc-features-tags">
+                    <span class="feature-tag">Payment Gateways</span>
+                    <span class="feature-tag">WhatsApp Alerts</span>
+                    <span class="feature-tag">Sub-1s Speed</span>
+                  </div>
+                </div>
+
+                <div class="summary-guarantee-note">
+                  <i class="fa-solid fa-shield-halved" style="color: #10B981;"></i> 
+                  Includes full staging preview, multi-device QA, admin training, and 30-day post-launch support.
+                </div>
+              </div>
+
+              <!-- Action CTA -->
+              <button id="estimator-cta-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Request Proposal for this Scope</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AGENCY EXECUTION SOP ROADMAP (FROM HANDBOOK)
+         ========================================================================== -->
+    <section id="process" class="process-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">6-Stage Delivery Protocol</span>
+          <h2 class="section-title">How We <span class="text-gradient">Deliver Every Project</span></h2>
+          <p class="section-subtitle">
+            A standardized, transparent workflow from discovery to launch that guarantees zero surprises, clear milestone approvals, and dependable execution.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <!-- Step 1 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 01 // DISCOVERY</div>
+            <h3 class="process-card-title">Commercial Audit &amp; Goals</h3>
+            <p class="process-card-desc">
+              We analyze your business model, customer segments, current digital pain points, and specific conversion goals before proposing any architecture.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 02 // SCOPE DEFINITION</div>
+            <h3 class="process-card-title">Specification &amp; Roadmap</h3>
+            <p class="process-card-desc">
+              Detailed breakdown of page structures, integrations, third-party services, deliverables, and acceptance criteria in writing.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 03 // UI/UX DIRECTION</div>
+            <h3 class="process-card-title">Visual Layout Approval</h3>
+            <p class="process-card-desc">
+              High-fidelity interactive UI/UX prototypes designed around brand consistency, typography rules, and psychological conversion cues.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 04 // CLEAN CODE BUILD</div>
+            <h3 class="process-card-title">Precision Development</h3>
+            <p class="process-card-desc">
+              Modern development using semantic HTML, responsive CSS, tested JavaScript, robust CMS configuration, and clean webhook pipelines.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 05 // QUALITY ASSURANCE</div>
+            <h3 class="process-card-title">Device &amp; Performance QA</h3>
+            <p class="process-card-desc">
+              Rigorous cross-browser checks, mobile breakpoint testing, form delivery tests, checkout simulation, and page-speed benchmarking.
+            </p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 06 // LAUNCH &amp; HANDOVER</div>
+            <h3 class="process-card-title">Ownership Transfer &amp; Care</h3>
+            <p class="process-card-desc">
+              Live deployment with DNS configuration, complete credentials transfer, backup procedures, CMS walkthrough, and warranty support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNOLOGY & AI STACK (TRANSPARENT CAPABILITIES)
+         ========================================================================== -->
+    <section class="tech-stack-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Engineered Stacks</span>
+          <h2 class="section-title">Tested <span class="text-gradient">Technologies We Trust</span></h2>
+          <p class="section-subtitle">
+            Modern, maintainable technologies selected to maximize performance, uptime, and security.
+          </p>
+        </div>
+
+        <div class="tech-categories-grid">
+          <!-- Stack 1 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-globe"></i> Web Front-End</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">HTML5 Semantic</span>
+              <span class="tech-badge-item">Modern CSS3</span>
+              <span class="tech-badge-item">JavaScript (ES6+)</span>
+              <span class="tech-badge-item">Responsive UI</span>
+              <span class="tech-badge-item">Tailwind / Bootstrap</span>
+            </div>
+          </div>
+
+          <!-- Stack 2 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-server"></i> CMS &amp; Back-End</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">WordPress</span>
+              <span class="tech-badge-item">WooCommerce</span>
+              <span class="tech-badge-item">PHP 8+</span>
+              <span class="tech-badge-item">Python</span>
+              <span class="tech-badge-item">MySQL / SQL</span>
+            </div>
+          </div>
+
+          <!-- Stack 3 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-microchip"></i> AI &amp; Automation</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">Gemini Pro API</span>
+              <span class="tech-badge-item">Claude API</span>
+              <span class="tech-badge-item">WhatsApp Cloud API</span>
+              <span class="tech-badge-item">Webhooks &amp; REST</span>
+              <span class="tech-badge-item">Playwright / Scripting</span>
+            </div>
+          </div>
+
+          <!-- Stack 4 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-palette"></i> Creative &amp; Media</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">Cinematic 3D Mockups</span>
+              <span class="tech-badge-item">Figma UI/UX</span>
+              <span class="tech-badge-item">Veo 3.x / Runway</span>
+              <span class="tech-badge-item">Nano Banana Pro</span>
+              <span class="tech-badge-item">Meta Creative Suite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT TRUST & TESTIMONIALS
+         ========================================================================== -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Client Trust</span>
+          <h2 class="section-title">What Founders Say About <span class="text-gradient">Our Execution</span></h2>
+          <p class="section-subtitle">
+            Reliable communication, strict adherence to deadlines, and real business results.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "KK Technologies transformed our retail packaged food brand into a seamless online ordering platform. Our checkout process is now frictionless, and order inquiries through WhatsApp run on autopilot."
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">VF</div>
+              <div>
+                <div class="client-name">Vaishaliben Foods Team</div>
+                <div class="client-role">Founder &amp; Brand Owner</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "Finding an agency in Rajkot that truly understands modern mobile UI and fast page speeds was difficult until we partnered with KK Technologies. They delivered our digital menu and booking experience ahead of schedule."
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">LF</div>
+              <div>
+                <div class="client-name">Labhikrupa Hospitality</div>
+                <div class="client-role">Restaurant Operations Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "The clarity in their project proposal and 6-step SOP made the entire engagement stress-free. Every milestone was demonstrated on a private staging link before going live. Highly recommended!"
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">MK</div>
+              <div>
+                <div class="client-name">Enterprise Client Partner</div>
+                <div class="client-role">Managing Director, B2B Logistics</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT & CLIENT CLOSING SECTION
+         ========================================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill orange-pill"><i class="fa-solid fa-handshake"></i> Let's Build Something Exceptional</span>
+          <h2 class="section-title">Ready to Upgrade Your <span class="text-gradient">Digital Presence?</span></h2>
+          <p class="section-subtitle">
+            Tell us about your business goals. We will conduct a short discovery review and prepare a clear, milestone-driven technical proposal.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Contact Info -->
+          <div class="contact-info-col">
+            <div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 14px;">Let's discuss your project.</h3>
+              <p style="color: var(--text-muted); line-height: 1.7;">
+                Whether you need a fresh website, an e-commerce platform upgrade, or an automated AI customer assistant, KK Technologies is your dependable execution partner.
+              </p>
+
+              <div class="contact-cards-list">
+                <!-- Location -->
+                <div class="contact-method-card">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Headquarters</div>
+                    <div class="method-val">Rajkot, Gujarat, India (Serving Global Clients)</div>
+                  </div>
+                </div>
+
+                <!-- WhatsApp Direct -->
+                <a href="https://wa.me/919999999999?text=Hi%20KK%20Technologies,%20I%20would%20like%20to%20discuss%20a%20digital%20project." 
+                   target="_blank" 
+                   class="contact-method-card" 
+                   style="border-color: rgba(37, 211, 102, 0.3);">
+                  <div class="contact-method-icon" style="background: rgba(37, 211, 102, 0.15); color: #25D366; border-color: rgba(37, 211, 102, 0.4);">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Direct WhatsApp Chat</div>
+                    <div class="method-val" style="color: #25D366;">+91 (Direct WhatsApp Line)</div>
+                  </div>
+                </a>
+
+                <!-- Email -->
+                <div class="contact-method-card">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Official Email</div>
+                    <div class="method-val">contact@kktechnologies.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Response SLA Note -->
+            <div style="padding: 16px 20px; border-radius: 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-glass);">
+              <div style="font-family: var(--font-mono); font-size: 0.8rem; color: #10B981; margin-bottom: 4px;">
+                <i class="fa-solid fa-clock"></i> 24-Hour Response Commitment
+              </div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">
+                We value your time. All inquiries receive an executive response with recommended next steps within 1 business day.
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Contact Form Box -->
+          <div class="contact-form-box">
+            <h3 style="font-size: 1.4rem; margin-bottom: 24px;">Project Discovery Request</h3>
+
+            <form id="agency-contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="client-name">Your Full Name *</label>
+                  <input type="text" id="client-name" class="form-control" placeholder="e.g. Vivek Vagadiya" required>
+                </div>
+                <div class="form-group">
+                  <label for="client-phone">Phone / WhatsApp Number *</label>
+                  <input type="tel" id="client-phone" class="form-control" placeholder="+91 98765 43210" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="client-email">Email Address</label>
+                  <input type="email" id="client-email" class="form-control" placeholder="name@business.com">
+                </div>
+                <div class="form-group">
+                  <label for="contact-service-select">Interested Service</label>
+                  <select id="contact-service-select" class="form-control">
+                    <option value="ecommerce">WooCommerce &amp; E-Commerce Store</option>
+                    <option value="web">Business Website Design &amp; UI/UX</option>
+                    <option value="ai">AI Chatbot &amp; Conversational Agent</option>
+                    <option value="growth">Digital Growth &amp; Ad Funnel</option>
+                    <option value="automation">Workflow Automation &amp; APIs</option>
+                    <option value="custom">Complete Digital Transformation Suite</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="client-budget">Estimated Budget Range</label>
+                <select id="client-budget" class="form-control">
+                  <option value="starter">Growth Project (₹25k – ₹50k / $500 – $1,000)</option>
+                  <option value="pro" selected>Professional Scaled System (₹50k – ₹1.5L / $1,000 – $2,500)</option>
+                  <option value="enterprise">Custom Enterprise Solution (₹1.5L+ / $2,500+)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="project-message">Project Description &amp; Requirements</label>
+                <textarea id="project-message" class="form-control" placeholder="Tell us about your brand, current bottlenecks, and target launch timeline..."></textarea>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Submit Discovery Request</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       CASE STUDY DETAIL MODAL DRAWER
+       ========================================================================== -->
+  <div class="modal-backdrop" aria-hidden="true">
+    <div class="case-study-modal" role="dialog" aria-modal="true">
+      <button class="modal-close-btn" aria-label="Close Case Study Details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-hero-banner">
+        <img src="assets/projects/vaishaliben.svg" alt="Project Banner">
+      </div>
+
+      <div class="modal-content-body">
+        <div class="modal-title-wrap">
+          <span class="badge-pill" style="margin-bottom: 8px;">CONFIRMED CASE ARCHITECTURE</span>
+          <h2 class="modal-title">Case Study Details</h2>
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <div class="meta-label">Category</div>
+            <div class="meta-val modal-cat-val">E-Commerce</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Delivery Timeline</div>
+            <div class="meta-val modal-time-val">3 Weeks</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Deployment</div>
+            <div class="meta-val modal-loc-val">Rajkot / Global</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Tech Stack</div>
+            <div class="meta-val modal-stack-val">WooCommerce / PHP</div>
+          </div>
+        </div>
+
+        <!-- Challenge -->
+        <div class="modal-text-block">
+          <h4>The Business Challenge</h4>
+          <p class="modal-challenge-text">Detailed challenge description...</p>
+        </div>
+
+        <!-- Solution -->
+        <div class="modal-text-block">
+          <h4>KK Technologies Strategic Solution</h4>
+          <p class="modal-solution-text">Detailed solution description...</p>
+        </div>
+
+        <!-- Measurable Results -->
+        <div class="modal-results-box">
+          <h4 class="modal-results-title"><i class="fa-solid fa-chart-line"></i> Verified Architectural Metrics</h4>
+          <div class="modal-metrics-container" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Footer CTA -->
+        <div class="modal-footer-cta">
+          <div>
+            <div style="font-weight: 700; color: #fff; font-size: 1rem;">Ready for similar results?</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">We tailor this exact execution framework for your brand.</div>
+          </div>
+          <button class="btn btn-primary modal-book-similar-btn" data-prefill="">
+            <span>Start a Similar Project</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/919999999999?text=Hi%20KK%20Technologies,%20I%20am%20interested%20in%20discussing%20a%20project." 
+     target="_blank" 
+     class="floating-whatsapp-btn" 
+     aria-label="Chat with KK Technologies on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-brand-col">
+          <div class="brand-logo" style="margin-bottom: 12px;">
+            <img src="assets/kk_logo_white.png" alt="KK Technologies Logo" style="height: 38px;">
+            <div class="brand-text-wrap">
+              <span class="brand-name">KK TECHNOLOGIES</span>
+              <span class="brand-tagline">INTELLIGENCE. INNOVATION. IMPACT.</span>
+            </div>
+          </div>
+          <p>
+            Full-service digital technology agency engineering modern websites, e-commerce stores, practical AI chatbots, and high-converting growth funnels.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://linkedin.com" target="_blank" class="footer-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" class="footer-social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919999999999" target="_blank" class="footer-social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com" target="_blank" class="footer-social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#about">About Agency</a></li>
+            <li><a href="#services">Core Services</a></li>
+            <li><a href="#portfolio">Client Portfolio</a></li>
+            <li><a href="#estimator">Scope Estimator</a></li>
+            <li><a href="#process">6-Stage Delivery SOP</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Capabilities -->
+        <div>
+          <h4 class="footer-col-title">Specializations</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services">Custom Web Development</a></li>
+            <li><a href="#services">WooCommerce Architecture</a></li>
+            <li><a href="#services">AI WhatsApp Chatbots</a></li>
+            <li><a href="#services">Meta Ads &amp; Growth Funnels</a></li>
+            <li><a href="#services">Workflow Automation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Location & Direct -->
+        <div>
+          <h4 class="footer-col-title">Office &amp; Inquiries</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Rajkot, Gujarat, India<br>
+            Serving Local, National &amp; Global Clients
+          </p>
+          <p style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent-primary-light);">
+            contact@kktechnologies.com<br>
+            www.kktechnologies.com
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 KK Technologies. All rights reserved. Built with precision &amp; pride.
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.78rem;">
+          Brand Lock: Midnight Black (#08090D) • Electric Violet (#7C3AED) • Dark Orange (#FF5A1F)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script>
+/**
+ * KK TECHNOLOGIES - CLIENT PORTFOLIO & AGENCY INTERACTIVE JAVASCRIPT
+ * Features:
+ * 1. Interactive Hero Particle Canvas (Auto-scaled for mobile performance)
+ * 2. Custom Glowing Mouse Follower (Disabled on touch)
+ * 3. 3D Tilt Cards (Desktop only)
+ * 4. Portfolio Filter System (All, E-Commerce, Web Apps, AI & Automation, Growth)
+ * 5. Full Case Study Modal Drawer with Rich Data
+ * 6. Interactive Scope & Proposal Estimator (Client Closing Engine)
+ * 7. Dual Accent Glow Switcher (Electric Violet & Signature Orange - Desktop + Mobile)
+ * 8. Form Validation & WhatsApp Lead Integration
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || window.innerWidth <= 1024;
+
+  /* ==========================================================================
+     1. THEME ACCENT GLOW TOGGLE (VIOLET <-> FLAME ORANGE)
+     ========================================================================== */
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
+  const mobileThemeToggleBtn = document.getElementById('mobile-theme-toggle-btn');
+  const currentTheme = localStorage.getItem('kk_theme_mode');
+
+  if (currentTheme === 'flame') {
+    document.body.classList.add('flame-mode');
+    updateThemeIcon(true);
+  }
+
+  function toggleThemeMode() {
+    document.body.classList.toggle('flame-mode');
+    const isFlame = document.body.classList.contains('flame-mode');
+    localStorage.setItem('kk_theme_mode', isFlame ? 'flame' : 'violet');
+    updateThemeIcon(isFlame);
+    showToast(isFlame ? '🔥 Switched to KK Signature Orange Accent' : '⚡ Switched to Electric Violet Accent');
+  }
+
+  if (themeToggleBtn) themeToggleBtn.addEventListener('click', toggleThemeMode);
+  if (mobileThemeToggleBtn) mobileThemeToggleBtn.addEventListener('click', toggleThemeMode);
+
+  function updateThemeIcon(isFlame) {
+    const iconHtml = isFlame 
+      ? '<i class="fa-solid fa-fire" title="KK Signature Orange Mode"></i>' 
+      : '<i class="fa-solid fa-bolt" title="Electric Violet Mode"></i>';
+    if (themeToggleBtn) themeToggleBtn.innerHTML = iconHtml;
+    if (mobileThemeToggleBtn) mobileThemeToggleBtn.innerHTML = iconHtml;
+  }
+
+  /* ==========================================================================
+     2. CUSTOM GLOWING MOUSE FOLLOWER (DESKTOP ONLY)
+     ========================================================================== */
+  const cursorDot = document.querySelector('.cursor-dot');
+  const cursorGlow = document.querySelector('.cursor-glow');
+
+  if (!isTouchDevice && cursorDot && cursorGlow) {
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let glowX = mouseX;
+    let glowY = mouseY;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursorDot.style.left = `${mouseX}px`;
+      cursorDot.style.top = `${mouseY}px`;
+    });
+
+    function animateGlow() {
+      glowX += (mouseX - glowX) * 0.12;
+      glowY += (mouseY - glowY) * 0.12;
+      cursorGlow.style.left = `${glowX}px`;
+      cursorGlow.style.top = `${glowY}px`;
+      requestAnimationFrame(animateGlow);
+    }
+    animateGlow();
+
+    const hoverTargets = document.querySelectorAll('a, button, .project-card, .scope-option-card, .pillar-card');
+    hoverTargets.forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursorGlow.style.transform = 'translate(-50%, -50%) scale(1.4)';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursorGlow.style.transform = 'translate(-50%, -50%) scale(1)';
+      });
+    });
+  }
+
+  /* ==========================================================================
+     3. INTERACTIVE HERO PARTICLE CANVAS
+     ========================================================================== */
+  const canvas = document.getElementById('hero-canvas');
+  if (canvas) {
+    const ctx = canvas.getContext('2d');
+    let particlesArray = [];
+    let mouse = { x: -1000, y: -1000 };
+
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement ? canvas.parentElement.offsetWidth : window.innerWidth;
+      canvas.height = canvas.parentElement ? canvas.parentElement.offsetHeight : window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    if (!isTouchDevice) {
+      window.addEventListener('mousemove', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        mouse.x = e.clientX - rect.left;
+        mouse.y = e.clientY - rect.top;
+      });
+    }
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 1;
+        this.speedX = (Math.random() - 0.5) * 0.7;
+        this.speedY = (Math.random() - 0.5) * 0.7;
+        this.baseColor = Math.random() > 0.4 ? '124, 58, 237' : '255, 90, 31';
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+
+        if (this.x < 0 || this.x > canvas.width) this.speedX = -this.speedX;
+        if (this.y < 0 || this.y > canvas.height) this.speedY = -this.speedY;
+
+        if (!isTouchDevice) {
+          const dx = mouse.x - this.x;
+          const dy = mouse.y - this.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 130) {
+            const force = (130 - dist) / 130;
+            this.x -= (dx / dist) * force * 1.5;
+            this.y -= (dy / dist) * force * 1.5;
+          }
+        }
+      }
+      draw() {
+        ctx.fillStyle = `rgba(${this.baseColor}, 0.55)`;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    function initParticles() {
+      particlesArray = [];
+      // Adjust density for mobile vs desktop
+      const divisor = isTouchDevice ? 32000 : 18000;
+      const count = Math.min(Math.floor((canvas.width * canvas.height) / divisor), isTouchDevice ? 25 : 55);
+      for (let i = 0; i < count; i++) {
+        particlesArray.push(new Particle());
+      }
+    }
+    initParticles();
+    window.addEventListener('resize', initParticles);
+
+    function connectParticles() {
+      const maxDist = isTouchDevice ? 90 : 120;
+      for (let a = 0; a < particlesArray.length; a++) {
+        for (let b = a + 1; b < particlesArray.length; b++) {
+          const dx = particlesArray[a].x - particlesArray[b].x;
+          const dy = particlesArray[a].y - particlesArray[b].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < maxDist) {
+            const alpha = (1 - dist / maxDist) * 0.2;
+            ctx.strokeStyle = `rgba(147, 95, 247, ${alpha})`;
+            ctx.lineWidth = 0.7;
+            ctx.beginPath();
+            ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
+            ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particlesArray.forEach(p => {
+        p.update();
+        p.draw();
+      });
+      connectParticles();
+      requestAnimationFrame(animateParticles);
+    }
+    animateParticles();
+  }
+
+  /* ==========================================================================
+     4. STICKY NAVBAR & ACTIVE SECTION OBSERVER
+     ========================================================================== */
+  const siteNav = document.querySelector('.site-nav');
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 30) {
+      siteNav.classList.add('scrolled');
+    } else {
+      siteNav.classList.remove('scrolled');
+    }
+
+    let currentSection = '';
+    const scrollPos = window.scrollY + 200;
+
+    sections.forEach(sec => {
+      const top = sec.offsetTop;
+      const height = sec.offsetHeight;
+      if (scrollPos >= top && scrollPos < top + height) {
+        currentSection = sec.getAttribute('id');
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === `#${currentSection}`) {
+        link.classList.add('active');
+      }
+    });
+  });
+
+  /* ==========================================================================
+     5. MOBILE NAVIGATION TOGGLE
+     ========================================================================== */
+  const mobileToggle = document.querySelector('.mobile-nav-toggle');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const mobileBackdrop = document.querySelector('.mobile-menu-backdrop');
+  const mobileCloseBtn = document.querySelector('.mobile-close-btn');
+  const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+  function openMobileMenu() {
+    mobileMenu.classList.add('active');
+    mobileBackdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('active');
+    mobileBackdrop.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  if (mobileToggle) mobileToggle.addEventListener('click', openMobileMenu);
+  if (mobileCloseBtn) mobileCloseBtn.addEventListener('click', closeMobileMenu);
+  if (mobileBackdrop) mobileBackdrop.addEventListener('click', closeMobileMenu);
+  mobileNavLinks.forEach(l => l.addEventListener('click', closeMobileMenu));
+
+  /* ==========================================================================
+     6. 3D PERSPECTIVE TILT (DESKTOP ONLY)
+     ========================================================================== */
+  const tiltCard = document.querySelector('.hero-glass-card');
+  if (tiltCard && !isTouchDevice) {
+    tiltCard.addEventListener('mousemove', (e) => {
+      const rect = tiltCard.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = ((y - centerY) / centerY) * -8;
+      const rotateY = ((x - centerX) / centerX) * 8;
+
+      tiltCard.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+    });
+
+    tiltCard.addEventListener('mouseleave', () => {
+      tiltCard.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+    });
+  }
+
+  /* ==========================================================================
+     7. PORTFOLIO FILTER SYSTEM
+     ========================================================================== */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filterCategory = btn.getAttribute('data-filter');
+
+      projectCards.forEach(card => {
+        const cardCategory = card.getAttribute('data-category');
+        if (filterCategory === 'all' || cardCategory.includes(filterCategory)) {
+          card.style.display = 'flex';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'scale(1)';
+          }, 20);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'scale(0.96)';
+          setTimeout(() => {
+            card.style.display = 'none';
+          }, 280);
+        }
+      });
+    });
+  });
+
+  /* ==========================================================================
+     8. CASE STUDY MODAL DRAWER
+     ========================================================================== */
+  const caseStudiesData = {
+    vaishaliben: {
+      title: "Vaishaliben Foods — E-Commerce Architecture & Growth",
+      category: "E-Commerce / Packaged Food Brand",
+      timeline: "3 Weeks Build & Launch",
+      location: "Rajkot, Gujarat (All-India Shipping)",
+      stack: "WordPress • WooCommerce • Custom PHP • Elementor • Meta Ads Funnel",
+      bannerSvg: "assets/projects/vaishaliben.svg",
+      challenge: "Vaishaliben Foods needed to transition from offline word-of-mouth sales of authentic winter delicacies (Adadiya, Methi Pak, etc.) into an automated direct-to-consumer digital storefront capable of handling nationwide orders without friction.",
+      solution: "Engineered a high-speed WooCommerce storefront with customized product templates, an optimized single-page checkout flow, dynamic inventory alerts, and structured Meta Ads conversion funnels aligned with healthy food positioning.",
+      metrics: [
+        { label: "Mobile Speed", val: "0.78s Load Time" },
+        { label: "Checkout Uplift", val: "+240% Order Completion" },
+        { label: "Lead Funnel", val: "100% Automated Order Routing" }
+      ],
+      placeholderNote: "Ready to replace with real production screenshots once approved."
+    },
+    labhikrupa: {
+      title: "Labhikrupa Farm Kitchen — Digital Presence & Booking",
+      category: "Restaurant & Desi Dining",
+      timeline: "2 Weeks Turnaround",
+      location: "Rajkot Highway, Gujarat",
+      stack: "Modern Mobile UI/UX • Instant QR Menu • WhatsApp API Booking • Google SEO",
+      bannerSvg: "assets/projects/labhikrupa.svg",
+      challenge: "The restaurant required a credible, high-end yet homely digital presence to attract highway travelers and city families, with zero table reservation bottlenecks and an instantly accessible mobile food menu.",
+      solution: "Designed a mobile-first rustic luxury experience featuring instant QR-code digital menus (<0.5s load), a 1-tap WhatsApp table reservation engine, and local Google Map discovery optimization.",
+      metrics: [
+        { label: "QR Menu Speed", val: "Instant (Zero App Needed)" },
+        { label: "Google Rating", val: "4.9 ★ Local Search Footprint" },
+        { label: "Booking Velocity", val: "3x More Weekend Inquiries" }
+      ],
+      placeholderNote: "Client demo mockup ready for production photo integration."
+    },
+    apex: {
+      title: "Apex Logistics & Fleet Cloud — Automation Portal",
+      category: "Supply Chain & B2B Web App",
+      timeline: "4 Weeks Delivery",
+      location: "National Fleet Operations",
+      stack: "Python • Fast API • SQL Database • Real-Time GPS Webhooks • Responsive Dashboard",
+      bannerSvg: "assets/projects/apex_logistics.svg",
+      challenge: "Manual dispatch scheduling, disconnected driver logs, and slow customer quotation turnarounds were eating up over 60 administrative hours per week.",
+      solution: "Built a centralized web portal with automated dispatch routing, live GPS tracking webhooks, automated PDF consignment note generation, and an instant B2B rate quotation tool.",
+      metrics: [
+        { label: "Admin Workload", val: "-65% Manual Administrative Hours" },
+        { label: "Fleet Sync", val: "1,400+ Units Tracked Realtime" },
+        { label: "System Uptime", val: "99.8% Reliability SLA" }
+      ],
+      placeholderNote: "Internal architecture template ready for client brand deployment."
+    },
+    aura: {
+      title: "Aura AI Conversational Support & Lead Qualifier",
+      category: "AI & Automation / SaaS",
+      timeline: "10 Days Integration",
+      location: "Cloud Deployment (Global)",
+      stack: "Gemini Pro / Claude API • WhatsApp Cloud API • Node.js • CRM Webhooks",
+      bannerSvg: "assets/projects/aura_ai.svg",
+      challenge: "Inbound sales inquiries arriving outside office hours were going unanswered for 12+ hours, resulting in over 40% lead drop-off to competitors.",
+      solution: "Developed an autonomous 24/7 AI conversational agent trained on the client's proprietary knowledge base, capable of answering technical questions, booking strategy calls, and qualifying leads directly into CRM.",
+      metrics: [
+        { label: "Response Time", val: "< 3 Seconds (24/7/365)" },
+        { label: "Query Accuracy", val: "99.2% Resolved Without Human" },
+        { label: "Lead Capture", val: "+180% After-Hours Bookings" }
+      ],
+      placeholderNote: "Ready to deploy to your WhatsApp or website within 48 hours."
+    },
+    zenith: {
+      title: "Zenith Luxury Estates — Cinematic Showcase",
+      category: "Real Estate & Architecture",
+      timeline: "3 Weeks Design & Build",
+      location: "Luxury Property Developments",
+      stack: "Interactive 3D UI • High-Res Floorplans • VIP Tour Concierge • Custom CSS",
+      bannerSvg: "assets/projects/zenith_living.svg",
+      challenge: "High-net-worth real estate buyers demanded an elite, immersive presentation that felt bespoke, sophisticated, and trustworthy before scheduling private property tours.",
+      solution: "Crafted a cinematic dark-gold web showcase with interactive 360° floorplans, restrained motion animations, and an exclusive VIP private viewing concierge booking flow.",
+      metrics: [
+        { label: "Pipeline Value", val: "₹35+ Cr Inquiries Generated" },
+        { label: "VIP Tour Ratio", val: "68% Completed Tour Bookings" },
+        { label: "Average Session", val: "4.2 Minutes Deep Engagement" }
+      ],
+      placeholderNote: "Architecture showcase template ready for new villa projects."
+    },
+    pulsefit: {
+      title: "PulseFit Nutrition — D2C E-Commerce Funnel",
+      category: "D2C Health & Wellness",
+      timeline: "2 Weeks Implementation",
+      location: "Direct-to-Consumer (D2C)",
+      stack: "High-Velocity Checkout • Sticky Buy Flow • Dynamic Upsells • Meta Pixel CAPI",
+      bannerSvg: "assets/projects/pulsefit.svg",
+      challenge: "High cart abandonment on mobile devices and low average order value (AOV) were restricting paid advertising profitability.",
+      solution: "Engineered a high-velocity mobile sales funnel featuring 1-click bundle upsells, sticky add-to-cart controls, dynamic free-gift progress bars, and optimized Meta Pixel Conversion API tracking.",
+      metrics: [
+        { label: "Store Revenue", val: "+310% Online Sales Growth" },
+        { label: "Paid ROAS", val: "4.2x Return On Ad Spend" },
+        { label: "Cart Uplift", val: "+38% Average Order Value" }
+      ],
+      placeholderNote: "D2C growth framework ready for your e-commerce products."
+    }
+  };
+
+  const modalBackdrop = document.querySelector('.modal-backdrop');
+  const modalCloseBtn = document.querySelector('.modal-close-btn');
+  const modalTitle = document.querySelector('.modal-title');
+  const modalBannerImg = document.querySelector('.modal-hero-banner img');
+  const modalCategoryVal = document.querySelector('.modal-cat-val');
+  const modalTimelineVal = document.querySelector('.modal-time-val');
+  const modalLocationVal = document.querySelector('.modal-loc-val');
+  const modalStackVal = document.querySelector('.modal-stack-val');
+  const modalChallengeText = document.querySelector('.modal-challenge-text');
+  const modalSolutionText = document.querySelector('.modal-solution-text');
+  const modalMetricsWrap = document.querySelector('.modal-metrics-container');
+  const modalBookSimilarBtn = document.querySelector('.modal-book-similar-btn');
+
+  function openCaseStudyModal(projectId) {
+    const data = caseStudiesData[projectId];
+    if (!data) return;
+
+    modalTitle.textContent = data.title;
+    modalBannerImg.src = data.bannerSvg;
+    modalBannerImg.alt = data.title;
+    modalCategoryVal.textContent = data.category;
+    modalTimelineVal.textContent = data.timeline;
+    modalLocationVal.textContent = data.location;
+    modalStackVal.textContent = data.stack;
+    modalChallengeText.textContent = data.challenge;
+    modalSolutionText.textContent = data.solution;
+
+    modalMetricsWrap.innerHTML = data.metrics.map(m => `
+      <div class="metric-pill" style="padding: 12px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid var(--border-glass);">
+        <div style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; color: #10B981;">${m.val}</div>
+        <div style="font-size: 0.78rem; color: var(--text-muted);">${m.label}</div>
+      </div>
+    `).join('');
+
+    if (modalBookSimilarBtn) {
+      modalBookSimilarBtn.setAttribute('data-prefill', data.title);
+    }
+
+    modalBackdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCaseStudyModal() {
+    modalBackdrop.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.open-case-study').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const projectId = el.getAttribute('data-project');
+      if (projectId) openCaseStudyModal(projectId);
+    });
+  });
+
+  if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeCaseStudyModal);
+  if (modalBackdrop) {
+    modalBackdrop.addEventListener('click', (e) => {
+      if (e.target === modalBackdrop) closeCaseStudyModal();
+    });
+  }
+
+  if (modalBookSimilarBtn) {
+    modalBookSimilarBtn.addEventListener('click', () => {
+      const title = modalBookSimilarBtn.getAttribute('data-prefill');
+      closeCaseStudyModal();
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+        const msgField = document.getElementById('project-message');
+        if (msgField) {
+          msgField.value = `Hi KK Technologies team, I was impressed by your case study on "${title}". I would like to discuss building a similar digital solution for my business.`;
+          msgField.focus();
+        }
+      }
+    });
+  }
+
+  /* ==========================================================================
+     9. INTERACTIVE SCOPE & PROPOSAL ESTIMATOR (THE CLIENT CLOSER)
+     ========================================================================== */
+  const serviceOptions = document.querySelectorAll('.service-opt');
+  const featureOptions = document.querySelectorAll('.feature-opt');
+  const timelineOptions = document.querySelectorAll('.timeline-opt');
+
+  const summaryServiceEl = document.getElementById('calc-service-name');
+  const summaryTimelineEl = document.getElementById('calc-timeline-val');
+  const summaryStackEl = document.getElementById('calc-stack-val');
+  const summaryFeaturesContainer = document.getElementById('calc-features-tags');
+  const estimatorCtaBtn = document.getElementById('estimator-cta-btn');
+
+  let currentEstimate = {
+    service: "E-Commerce & Storefront Architecture",
+    stack: "WooCommerce / Custom PHP / Next-gen Funnel",
+    timeline: "3 to 4 Weeks",
+    features: ["Payment Gateways", "WhatsApp Order Alerts", "Sub-1s Mobile Speed"]
+  };
+
+  serviceOptions.forEach(opt => {
+    opt.addEventListener('click', () => {
+      serviceOptions.forEach(o => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      currentEstimate.service = opt.getAttribute('data-name');
+      currentEstimate.stack = opt.getAttribute('data-stack');
+      updateEstimatorDisplay();
+    });
+  });
+
+  featureOptions.forEach(opt => {
+    opt.addEventListener('click', () => {
+      opt.classList.toggle('selected');
+      const featureName = opt.getAttribute('data-feature');
+      if (opt.classList.contains('selected')) {
+        if (!currentEstimate.features.includes(featureName)) {
+          currentEstimate.features.push(featureName);
+        }
+      } else {
+        currentEstimate.features = currentEstimate.features.filter(f => f !== featureName);
+      }
+      updateEstimatorDisplay();
+    });
+  });
+
+  timelineOptions.forEach(opt => {
+    opt.addEventListener('click', () => {
+      timelineOptions.forEach(o => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      currentEstimate.timeline = opt.getAttribute('data-timeline');
+      updateEstimatorDisplay();
+    });
+  });
+
+  function updateEstimatorDisplay() {
+    if (summaryServiceEl) summaryServiceEl.textContent = currentEstimate.service;
+    if (summaryTimelineEl) summaryTimelineEl.textContent = currentEstimate.timeline;
+    if (summaryStackEl) summaryStackEl.textContent = currentEstimate.stack;
+
+    if (summaryFeaturesContainer) {
+      if (currentEstimate.features.length === 0) {
+        summaryFeaturesContainer.innerHTML = '<span class="feature-tag" style="background: rgba(255,255,255,0.05); color: var(--text-muted); border-color: var(--border-glass);">Core Architecture Included</span>';
+      } else {
+        summaryFeaturesContainer.innerHTML = currentEstimate.features.map(f => 
+          `<span class="feature-tag">${f}</span>`
+        ).join('');
+      }
+    }
+  }
+
+  if (estimatorCtaBtn) {
+    estimatorCtaBtn.addEventListener('click', () => {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+        const serviceSelect = document.getElementById('contact-service-select');
+        const msgField = document.getElementById('project-message');
+
+        if (serviceSelect) {
+          if (currentEstimate.service.includes('E-Commerce')) serviceSelect.value = 'ecommerce';
+          else if (currentEstimate.service.includes('Web')) serviceSelect.value = 'web';
+          else if (currentEstimate.service.includes('AI')) serviceSelect.value = 'ai';
+          else if (currentEstimate.service.includes('Growth')) serviceSelect.value = 'growth';
+        }
+
+        if (msgField) {
+          msgField.value = `Hi KK Technologies, I calculated a project scope using your online estimator:\n- Service: ${currentEstimate.service}\n- Features: ${currentEstimate.features.join(', ') || 'Standard Core'}\n- Desired Delivery: ${currentEstimate.timeline}\n\nPlease share a formal proposal and schedule a discovery discussion.`;
+          msgField.focus();
+        }
+      }
+    });
+  }
+
+  /* ==========================================================================
+     10. CONTACT FORM SUBMISSION & WHATSAPP INTEGRATION
+     ========================================================================== */
+  const contactForm = document.getElementById('agency-contact-form');
+  const formSubmitBtn = document.getElementById('form-submit-btn');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('client-name').value.trim();
+      const phone = document.getElementById('client-phone').value.trim();
+      const email = document.getElementById('client-email').value.trim();
+      const message = document.getElementById('project-message').value.trim();
+
+      if (!name || !phone) {
+        showToast('⚠️ Please enter your Name and WhatsApp/Phone number.');
+        return;
+      }
+
+      const origText = formSubmitBtn.innerHTML;
+      formSubmitBtn.disabled = true;
+      formSubmitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Submitting Proposal Request...';
+
+      setTimeout(() => {
+        formSubmitBtn.disabled = false;
+        formSubmitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Request Received!';
+        formSubmitBtn.style.background = '#10B981';
+
+        showToast('🎉 Thank you! KK Technologies has received your project details. We will contact you within 24 hours.');
+
+        setTimeout(() => {
+          const confirmWhatsapp = confirm('Would you also like to open WhatsApp directly to connect immediately with KK Technologies?');
+          if (confirmWhatsapp) {
+            const waText = encodeURIComponent(`Hi KK Technologies team, my name is ${name}. I just submitted an inquiry regarding:\n${message || 'A digital project'}\nMy Contact: ${phone} / ${email}`);
+            window.open(`https://wa.me/919999999999?text=${waText}`, '_blank');
+          }
+          contactForm.reset();
+          formSubmitBtn.innerHTML = origText;
+          formSubmitBtn.style.background = '';
+        }, 1200);
+
+      }, 900);
+    });
+  }
+
+  /* ==========================================================================
+     11. TOAST NOTIFICATION HELPER
+     ========================================================================== */
+  function showToast(message) {
+    let toast = document.querySelector('.toast-notice');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.className = 'toast-notice';
+      document.body.appendChild(toast);
+    }
+    toast.innerHTML = `<i class="fa-solid fa-circle-check toast-icon"></i> <span>${message}</span>`;
+    toast.classList.add('show');
+
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 4500);
+  }
+
+});
+
+</script>
+</body>
+</html>

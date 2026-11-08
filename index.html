@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KK Technologies — Full-Service Digital Technology Agency &amp; Client Portfolio</title>
+  
+  <!-- SEO & Brand Metadata -->
+  <meta name="description" content="KK Technologies is a full-service digital agency specializing in high-performance websites, WooCommerce e-commerce, AI conversational chatbots, and digital growth systems. Serving Rajkot, India &amp; global clients.">
+  <meta name="keywords" content="KK Technologies, Web Development Agency, Rajkot Web Design, WooCommerce Developers, AI Chatbots, Digital Growth, Full Service Tech Agency">
+  <meta name="author" content="KK Technologies">
+  <meta name="theme-color" content="#08090D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="KK Technologies — Full-Service Digital Technology Agency">
+  <meta property="og:description" content="Intelligence. Innovation. Impact. Translating business challenges into sleek websites, practical automation, and high-converting client experiences.">
+  <meta property="og:image" content="assets/brand_board.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Custom Glowing Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- Background Ambient Glow Orbs -->
+  <div class="bg-glow-orb" style="top: 10%; left: -10%;"></div>
+  <div class="bg-glow-orange" style="top: 35%; right: -10%;"></div>
+  <div class="bg-glow-orb" style="top: 75%; left: 20%;"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="KK Technologies Home">
+        <img src="assets/kk_logo_white.png" alt="KK Technologies Logo" class="brand-logo-img">
+        <div class="brand-text-wrap">
+          <span class="brand-name">KK TECHNOLOGIES</span>
+          <span class="brand-tagline">DIGITAL AGENCY • RAJKOT • GLOBAL</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#estimator" class="nav-link">Scope Calculator</a></li>
+          <li><a href="#process" class="nav-link">SOP Process</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Switch & CTA) -->
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="theme-switch-btn" aria-label="Toggle Glow Accent (Violet / KK Orange)">
+          <i class="fa-solid fa-fire" title="Toggle Flame Orange Accent"></i>
+        </button>
+        <a href="#contact" class="btn btn-outline-glow" style="padding: 10px 20px; font-size: 0.88rem;">
+          <span>Start a Project</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Open Mobile Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu-backdrop"></div>
+  <div class="mobile-menu">
+    <div>
+      <div class="mobile-menu-header">
+        <img src="assets/kk_logo_white.png" alt="KK Technologies" style="height: 32px;">
+        <button class="mobile-close-btn" aria-label="Close menu" style="background:none; border:none; color:#fff; font-size:1.5rem; cursor:pointer; width:44px; height:44px; display:flex; align-items:center; justify-content:center;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Theme Accent Switcher -->
+      <div style="margin-bottom: 20px; padding: 12px 14px; background: rgba(255,255,255,0.04); border-radius: 12px; border: 1px solid var(--border-glass); display: flex; align-items: center; justify-content: space-between;">
+        <span style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--text-soft); display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-palette" style="color: var(--accent-primary-light);"></i> Accent Mode
+        </span>
+        <button id="mobile-theme-toggle-btn" class="theme-switch-btn" aria-label="Toggle Glow Accent (Violet / KK Orange)">
+          <i class="fa-solid fa-fire" title="Toggle Flame Orange Accent"></i>
+        </button>
+      </div>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Agency</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link">Case Studies &amp; Work</a></li>
+        <li><a href="#estimator" class="mobile-nav-link">Project Scope Calculator</a></li>
+        <li><a href="#process" class="mobile-nav-link">Execution SOP</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Book Discovery Call</a></li>
+      </ul>
+    </div>
+    <div style="padding-top: 20px; border-top: 1px solid var(--border-glass);">
+      <a href="https://wa.me/919999999999" target="_blank" class="btn btn-whatsapp" style="width: 100%; margin-bottom: 12px;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+      <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-dim); text-align: center;">
+        Intelligence. Innovation. Impact.
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero-section">
+      <!-- Interactive Particle Canvas -->
+      <canvas id="hero-canvas"></canvas>
+
+      <div class="container hero-grid">
+        <!-- Left Hero Copy -->
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <span class="badge-pill">
+              <span class="pulse-dot"></span>
+              Full-Service Digital Technology Agency
+            </span>
+            <span class="badge-pill orange-pill">
+              <i class="fa-solid fa-location-dot"></i> Rajkot • India • Global
+            </span>
+          </div>
+
+          <h1 class="hero-headline">
+            We Engineer Digital Experiences That <span class="text-gradient">Grow Your Business.</span>
+          </h1>
+
+          <p class="hero-description">
+            We help ambitious brands, retailers, and founders translate complex business problems into high-performing websites, streamlined e-commerce systems, AI conversational assistants, and scalable growth funnels.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-primary">
+              <span>View Client Portfolio</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#estimator" class="btn btn-secondary">
+              <i class="fa-solid fa-calculator"></i>
+              <span>Estimate Project Scope</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics Strip -->
+          <div class="hero-stats-strip">
+            <div class="hero-stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Delivery &amp; Scope Commitment</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">AI-Enabled Lead Automation</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number">&lt; 1.0s</div>
+              <div class="stat-label">Optimized Mobile Page Speed</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Showcase Card (Interactive 3D Tilt) -->
+        <div class="hero-card-container">
+          <div class="hero-glass-card">
+            <!-- Floating Metric Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="floating-badge-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div>
+                <div class="floating-badge-title">Pixel-Perfect UI</div>
+                <div class="floating-badge-sub">Mobile-First Standard</div>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="floating-badge-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <div class="floating-badge-title">High Conversion</div>
+                <div class="floating-badge-sub">Built for ROI &amp; Trust</div>
+              </div>
+            </div>
+
+            <!-- Terminal Topbar -->
+            <div class="card-terminal-bar">
+              <div class="terminal-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-title">KK_TECHNOLOGIES // CORE_IDENTITY.SYS</div>
+              <div style="font-size: 0.75rem; color: #10B981;">
+                <i class="fa-solid fa-circle" style="font-size: 0.5rem;"></i> Active
+              </div>
+            </div>
+
+            <!-- Brand Board Showcase Image -->
+            <img src="assets/brand_board.jpg" alt="KK Technologies Brand Identity Moodboard" class="hero-brand-board-img">
+
+            <!-- Interactive Technology Tags -->
+            <div class="hero-floating-pills">
+              <span class="tech-tag-chip"><i class="fa-brands fa-html5"></i> Modern Web</span>
+              <span class="tech-tag-chip"><i class="fa-brands fa-wordpress"></i> WooCommerce</span>
+              <span class="tech-tag-chip"><i class="fa-solid fa-robot"></i> AI Chatbots</span>
+              <span class="tech-tag-chip"><i class="fa-solid fa-bullhorn"></i> Meta Ads Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AGENCY IDENTITY & OPERATING PRINCIPLES (FROM HANDBOOK)
+         ========================================================================== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Operating Principles</span>
+          <h2 class="section-title">Built with <span class="text-gradient">Purpose &amp; Precision</span></h2>
+          <p class="section-subtitle">
+            At KK Technologies, we don't sell technology for its own sake. We design and engineer dependable digital systems that solve real commercial bottlenecks for your company.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3 class="pillar-title">Business-First Strategy</h3>
+            <p class="pillar-desc">
+              Every design decision, line of code, and automation workflow starts with the client's commercial problem — not trendy buzzwords. We focus on customer journey, conversion, and retention.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <h3 class="pillar-title">Clarity Over Complexity</h3>
+            <p class="pillar-desc">
+              We eliminate technical clutter and code bloat. We build maintainable, lightning-fast digital solutions that your team can comfortably manage and scale without constant reliance on developers.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="pillar-title">Execution Discipline</h3>
+            <p class="pillar-desc">
+              From our clear 6-stage delivery SOP to transparent scopes and milestone approvals, we ensure you always know what is being built, when it will be delivered, and how it will perform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CORE SERVICES (DETAILED SERVICE SUITE)
+         ========================================================================== */ -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Full-Service Capabilities</span>
+          <h2 class="section-title">End-to-End <span class="text-gradient">Digital Services</span></h2>
+          <p class="section-subtitle">
+            Comprehensive digital solutions designed to elevate your brand presence, capture qualified customer inquiries, and automate repetitive business workflows.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Website Design & Development -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="service-number">01 // DEV</span>
+              </div>
+              <h3 class="service-title">Website Design &amp; Development</h3>
+              <p class="service-description">
+                Custom high-impact business websites, landing pages, and responsive portals engineered for speed, clean aesthetics, and instant trust.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Responsive Mobile-First Architecture</li>
+                <li><i class="fa-solid fa-check"></i> High-Speed Semantic HTML5 / CSS3</li>
+                <li><i class="fa-solid fa-check"></i> On-Page Technical SEO &amp; Analytics</li>
+                <li><i class="fa-solid fa-check"></i> WordPress / Elementor / Headless CMS</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Discuss Website Project</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 2: E-Commerce & WooCommerce (Orange Variant) -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <span class="service-number">02 // COMMERCE</span>
+              </div>
+              <h3 class="service-title">E-Commerce &amp; WooCommerce</h3>
+              <p class="service-description">
+                High-converting online stores built for seamless product discovery, frictionless 1-click checkouts, and automated inventory sync.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> WooCommerce / Shopify Customization</li>
+                <li><i class="fa-solid fa-check"></i> Razorpay / Stripe Payment Integrations</li>
+                <li><i class="fa-solid fa-check"></i> Cart Abandonment Recovery Funnels</li>
+                <li><i class="fa-solid fa-check"></i> Shipping &amp; Tax Automation Rules</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Launch Your Store</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 3: AI Chatbots & Conversational Agents -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <span class="service-number">03 // AI</span>
+              </div>
+              <h3 class="service-title">AI Chatbots &amp; Conversational Agents</h3>
+              <p class="service-description">
+                Intelligent conversational assistants deployed on your website and WhatsApp to capture leads and answer FAQs 24/7 without delays.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Custom Trained Company Knowledge Base</li>
+                <li><i class="fa-solid fa-check"></i> WhatsApp Cloud API Direct Integration</li>
+                <li><i class="fa-solid fa-check"></i> Instant Lead Qualification &amp; Routing</li>
+                <li><i class="fa-solid fa-check"></i> CRM Sync (HubSpot, Sheets, Zoho)</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Deploy AI Assistant</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 4: Digital Growth & Performance Marketing -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <span class="service-number">04 // GROWTH</span>
+              </div>
+              <h3 class="service-title">Digital Growth &amp; Ad Funnels</h3>
+              <p class="service-description">
+                Targeted lead generation campaigns and conversion rate optimization (CRO) that turn casual visitors into paying customers.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> High-Converting Landing Page Sprints</li>
+                <li><i class="fa-solid fa-check"></i> Meta &amp; Google Ads Campaign Setup</li>
+                <li><i class="fa-solid fa-check"></i> Conversion Tracking &amp; Event Pixels</li>
+                <li><i class="fa-solid fa-check"></i> Funnel Drop-off Analysis &amp; Testing</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Scale Inbound Leads</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 5: Social Media Handling & Brand Content -->
+          <div class="service-card">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-film"></i>
+                </div>
+                <span class="service-number">05 // MEDIA</span>
+              </div>
+              <h3 class="service-title">Social Media &amp; Cinematic Content</h3>
+              <p class="service-description">
+                Premium cinematic technology graphics, engaging reel concepts, and structured monthly content calendars that establish industry authority.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Monthly Content Planning &amp; Direction</li>
+                <li><i class="fa-solid fa-check"></i> Cinematic 3D Tech Style Visuals</li>
+                <li><i class="fa-solid fa-check"></i> Problem-to-Solution Explainers</li>
+                <li><i class="fa-solid fa-check"></i> Consistent Multi-Platform Branding</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Elevate Social Brand</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Service 6: Workflow Automation & Integrations -->
+          <div class="service-card orange-theme">
+            <div class="service-top">
+              <div class="service-icon-row">
+                <div class="service-icon">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <span class="service-number">06 // AUTO</span>
+              </div>
+              <h3 class="service-title">Workflow Automation &amp; APIs</h3>
+              <p class="service-description">
+                Audit manual bottlenecks and connect your disparate business tools to eliminate repetitive data entry and human error.
+              </p>
+              <ul class="service-deliverables">
+                <li><i class="fa-solid fa-check"></i> Custom Webhook &amp; REST API Pipelines</li>
+                <li><i class="fa-solid fa-check"></i> Automatic Invoice &amp; PDF Generation</li>
+                <li><i class="fa-solid fa-check"></i> Multi-channel Notification Alerts</li>
+                <li><i class="fa-solid fa-check"></i> Secure Role-Based Access Standards</li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-cta-link">
+              <span>Automate Workflows</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT PORTFOLIO & CASE STUDIES (SHOWSTOPPER SECTION)
+         ========================================================================== -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Selected Works</span>
+          <h2 class="section-title">Engineered to <span class="text-gradient">Convert &amp; Inspire</span></h2>
+          <p class="section-subtitle">
+            Explore our featured client solutions and prototype architectures. Each project is engineered with strict adherence to conversion psychology, speed benchmarks, and brand consistency.
+          </p>
+        </div>
+
+        <!-- Filter Buttons Bar -->
+        <div class="portfolio-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="web">Web &amp; UI/UX</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Automation</button>
+          <button class="filter-btn" data-filter="growth">Growth &amp; Funnels</button>
+        </div>
+
+        <!-- Portfolio Projects Grid -->
+        <div class="portfolio-grid">
+          
+          <!-- PROJECT 1: Vaishaliben Foods (Handbook Real Case) -->
+          <div class="project-card" data-category="ecommerce growth">
+            <div class="placeholder-indicator-badge">
+              <i class="fa-solid fa-circle-check"></i> Confirmed Client Case Context
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="vaishaliben" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your actual screenshot, e.g. assets/projects/vaishaliben.jpg -->
+              <img src="assets/projects/vaishaliben.svg" alt="Vaishaliben Foods E-Commerce Storefront">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="vaishaliben">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">E-Commerce • Packaged Foods</span>
+                  <span class="project-year">2026 // RAJKOT</span>
+                </div>
+                <h3 class="project-title">Vaishaliben Foods</h3>
+                <p class="project-excerpt">
+                  End-to-end WooCommerce storefront redevelopment with dynamic product page architecture, mobile-optimized checkout flows, and Meta Ads winter nourishment funnels.
+                </p>
+                <!-- Key Results Highlight -->
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">0.78s</div>
+                    <div class="metric-label">Mobile Load Speed</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">+240%</div>
+                    <div class="metric-label">Checkout Conversion</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">WooCommerce</span>
+                  <span class="stack-badge">Custom PHP</span>
+                  <span class="stack-badge">Elementor</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="vaishaliben">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Labhikrupa Farm Kitchen (Handbook Real Case) -->
+          <div class="project-card" data-category="web">
+            <div class="placeholder-indicator-badge">
+              <i class="fa-solid fa-compass-drafting"></i> Concept &amp; Demo Direction Ready
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="labhikrupa" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your actual restaurant photos/screenshots -->
+              <img src="assets/projects/labhikrupa.svg" alt="Labhikrupa Farm Kitchen Restaurant Digital Presence">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="labhikrupa">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Restaurant &amp; Dining UI/UX</span>
+                  <span class="project-year">2026 // GUJARAT</span>
+                </div>
+                <h3 class="project-title">Labhikrupa Farm Kitchen</h3>
+                <p class="project-excerpt">
+                  Balancing rooted Kathiyawadi hospitality with a contemporary mobile-first digital experience, instant zero-download QR menu, and 1-tap WhatsApp table reservation engine.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">&lt; 0.5s</div>
+                    <div class="metric-label">Instant QR Menu Speed</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">4.9 ★</div>
+                    <div class="metric-label">Google Discovery Footprint</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Mobile UI/UX</span>
+                  <span class="stack-badge">QR Engine</span>
+                  <span class="stack-badge">WhatsApp API</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="labhikrupa">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Apex Logistics Cloud (B2B Web App & Automation Placeholder) -->
+          <div class="project-card" data-category="web ai">
+            <div class="placeholder-indicator-badge" style="color: #38BDF8;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="apex" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your B2B / SaaS client screenshot -->
+              <img src="assets/projects/apex_logistics.svg" alt="Apex Logistics Cloud Portal Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="apex">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Supply Chain • Web Portal</span>
+                  <span class="project-year">2026 // ENTERPRISE</span>
+                </div>
+                <h3 class="project-title">Apex Logistics &amp; Fleet Cloud</h3>
+                <p class="project-excerpt">
+                  Centralized freight dispatching web portal with real-time GPS tracking webhooks, automated electronic consignment notes, and instant client quotation calculators.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">-65%</div>
+                    <div class="metric-label">Manual Admin Hours</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">99.8%</div>
+                    <div class="metric-label">System Uptime SLA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Python</span>
+                  <span class="stack-badge">SQL</span>
+                  <span class="stack-badge">Webhooks</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="apex">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Aura AI Conversational Agent (AI Chatbot Placeholder) -->
+          <div class="project-card" data-category="ai">
+            <div class="placeholder-indicator-badge" style="color: #A855F7;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="aura" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your AI bot dashboard or WhatsApp chat screenshot -->
+              <img src="assets/projects/aura_ai.svg" alt="Aura AI Conversational Assistant Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="aura">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">AI Chatbots • Automation</span>
+                  <span class="project-year">2026 // GLOBAL</span>
+                </div>
+                <h3 class="project-title">Aura AI Support &amp; Qualifier</h3>
+                <p class="project-excerpt">
+                  Autonomous 24/7 customer engagement bot connected to WhatsApp and web, trained on proprietary company docs to answer technical queries and auto-qualify inbound sales leads.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">99.2%</div>
+                    <div class="metric-label">Autonomous Resolution</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">&lt; 3 Sec</div>
+                    <div class="metric-label">24/7 Response Time</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">Gemini / Claude</span>
+                  <span class="stack-badge">WhatsApp API</span>
+                  <span class="stack-badge">CRM Routing</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="aura">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: Zenith Luxury Estates (Real Estate UI Placeholder) -->
+          <div class="project-card" data-category="web">
+            <div class="placeholder-indicator-badge" style="color: #F59E0B;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="zenith" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your luxury real estate or architectural showcase screenshot -->
+              <img src="assets/projects/zenith_living.svg" alt="Zenith Luxury Living Real Estate Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="zenith">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">Luxury Real Estate • 3D Showcase</span>
+                  <span class="project-year">2026 // ARCHITECTURE</span>
+                </div>
+                <h3 class="project-title">Zenith Luxury Estates</h3>
+                <p class="project-excerpt">
+                  Cinematic, minimalist architectural showcase with interactive 360° virtual tours, interactive villa floorplans, and private concierge booking for high-net-worth investors.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">₹35+ Cr</div>
+                    <div class="metric-label">HNW Pipeline Generated</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">68%</div>
+                    <div class="metric-label">VIP Tour Bookings</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">HTML5 / CSS3</span>
+                  <span class="stack-badge">3D Virtual Tour</span>
+                  <span class="stack-badge">VIP Lead Funnel</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="zenith">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 6: PulseFit D2C Nutrition (E-Commerce Funnel Placeholder) -->
+          <div class="project-card" data-category="ecommerce growth">
+            <div class="placeholder-indicator-badge" style="color: #10B981;">
+              <i class="fa-solid fa-folder-open"></i> Placeholder Slot: Ready for Your Client Work
+            </div>
+            <div class="project-media-wrap open-case-study" data-project="pulsefit" style="cursor: pointer;">
+              <!-- REPLACE_IMAGE_HERE: Replace with your D2C client screenshot -->
+              <img src="assets/projects/pulsefit.svg" alt="PulseFit Performance Nutrition Store Mockup">
+              <div class="project-media-overlay">
+                <button class="btn btn-primary project-quick-btn open-case-study" data-project="pulsefit">
+                  <i class="fa-solid fa-eye"></i> Quick View Case Study
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <div class="project-meta-row">
+                  <span class="project-category-tag">D2C Nutrition • Growth Funnel</span>
+                  <span class="project-year">2026 // D2C BRAND</span>
+                </div>
+                <h3 class="project-title">PulseFit Performance Nutrition</h3>
+                <p class="project-excerpt">
+                  High-velocity direct-to-consumer store with 1-click bundle upsells, sticky add-to-cart controls, dynamic free-gift progress bars, and Meta Pixel Conversion API tracking.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="metric-pill">
+                    <div class="metric-value">+310%</div>
+                    <div class="metric-label">Store Revenue Growth</div>
+                  </div>
+                  <div class="metric-pill">
+                    <div class="metric-value">4.2x</div>
+                    <div class="metric-label">Meta Ads ROAS</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack-icons">
+                  <span class="stack-badge">WooCommerce</span>
+                  <span class="stack-badge">Sticky Checkout</span>
+                  <span class="stack-badge">Meta Pixel CAPI</span>
+                </div>
+                <button class="view-case-study-btn open-case-study" data-project="pulsefit">
+                  <span>Explore Case</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE PROJECT SCOPE & PROPOSAL ESTIMATOR (CLIENT CLOSER WIDGET)
+         ========================================================================== -->
+    <section id="estimator" class="estimator-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill orange-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Instant Scope Discovery</span>
+          <h2 class="section-title">Calculate Your <span class="text-gradient">Project Architecture</span></h2>
+          <p class="section-subtitle">
+            Configure your technical requirements below to instantly generate a recommended stack, delivery timeline, and customized proposal brief.
+          </p>
+        </div>
+
+        <div class="estimator-box">
+          <div class="estimator-grid">
+            
+            <!-- Left Controls -->
+            <div class="estimator-controls">
+              <!-- Step 1: Service Type -->
+              <span class="step-label">01 // SELECT CORE SYSTEM</span>
+              <h3 class="estimator-step-title">What type of digital solution do you need?</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card service-opt selected" 
+                     data-name="E-Commerce &amp; Storefront Architecture" 
+                     data-stack="WooCommerce / Custom PHP / Next-gen Funnel">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">E-Commerce Store</span>
+                    <span class="opt-desc">WooCommerce, Shopify, Payment Gateways</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="High-Performance Corporate Website" 
+                     data-stack="Semantic HTML5 / CSS3 / Elementor Pro">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Business Website</span>
+                    <span class="opt-desc">Brand Showcase, Lead Forms, SEO</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="AI Conversational Chatbot &amp; WhatsApp Bot" 
+                     data-stack="Gemini Pro / Claude / WhatsApp Cloud API">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">AI Chatbot Agent</span>
+                    <span class="opt-desc">24/7 Lead Routing &amp; FAQ Answering</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card service-opt" 
+                     data-name="Full-Service Growth &amp; Content Suite" 
+                     data-stack="Landing Pages / Meta Ads / 3D Creative Direction">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Growth &amp; Social Suite</span>
+                    <span class="opt-desc">Ad Funnels, 3D Visuals, Monthly Content</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 2: Key Features -->
+              <span class="step-label">02 // SELECT INTEGRATIONS &amp; MODULES</span>
+              <h3 class="estimator-step-title">Select features required for your project:</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card feature-opt selected" data-feature="Payment Gateways (Razorpay/Stripe)">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Payment Gateways</span>
+                    <span class="opt-desc">Razorpay, UPI, International Cards</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt selected" data-feature="WhatsApp Order Alerts &amp; Chat">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">WhatsApp Integration</span>
+                    <span class="opt-desc">Direct inquiry &amp; automated notification</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt selected" data-feature="Mobile UX Optimization">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">Sub-1s Mobile Speed</span>
+                    <span class="opt-desc">Ultra-fast asset compression &amp; caching</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card feature-opt" data-feature="Custom CRM Lead Webhooks">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">CRM Lead Sync</span>
+                    <span class="opt-desc">HubSpot, Google Sheets, Zoho sync</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 3: Urgency -->
+              <span class="step-label">03 // DELIVERY TIMELINE TARGET</span>
+              <h3 class="estimator-step-title">What is your launch schedule?</h3>
+              <div class="options-pill-grid">
+                <div class="scope-option-card timeline-opt" data-timeline="Fast-Track Sprint (10 to 14 Days)">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">⚡ Fast-Track Sprint</span>
+                    <span class="opt-desc">10–14 Days Urgent Turnaround</span>
+                  </div>
+                </div>
+
+                <div class="scope-option-card timeline-opt selected" data-timeline="3 to 4 Weeks">
+                  <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                  <div class="option-text">
+                    <span class="opt-name">★ Standard Delivery</span>
+                    <span class="opt-desc">3–4 Weeks Thorough Build &amp; QA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Summary Output Card -->
+            <div class="estimator-summary-panel">
+              <div>
+                <h4 class="summary-heading">
+                  <i class="fa-solid fa-receipt" style="color: var(--accent-primary-light);"></i> Scope Summary
+                </h4>
+
+                <div class="summary-item-row">
+                  <span class="label">Architecture:</span>
+                  <span class="value" id="calc-service-name">E-Commerce &amp; Storefront Architecture</span>
+                </div>
+
+                <div class="summary-item-row">
+                  <span class="label">Target Timeline:</span>
+                  <span class="value" id="calc-timeline-val" style="color: #10B981;">3 to 4 Weeks</span>
+                </div>
+
+                <div class="summary-item-row">
+                  <span class="label">Tech Stack:</span>
+                  <span class="value" id="calc-stack-val" style="font-size: 0.85rem; color: #C4B5FD;">WooCommerce / PHP</span>
+                </div>
+
+                <div style="margin-top: 18px; margin-bottom: 8px;">
+                  <span class="label" style="display: block; margin-bottom: 8px;">Included Key Modules:</span>
+                  <div class="selected-features-list" id="calc-features-tags">
+                    <span class="feature-tag">Payment Gateways</span>
+                    <span class="feature-tag">WhatsApp Alerts</span>
+                    <span class="feature-tag">Sub-1s Speed</span>
+                  </div>
+                </div>
+
+                <div class="summary-guarantee-note">
+                  <i class="fa-solid fa-shield-halved" style="color: #10B981;"></i> 
+                  Includes full staging preview, multi-device QA, admin training, and 30-day post-launch support.
+                </div>
+              </div>
+
+              <!-- Action CTA -->
+              <button id="estimator-cta-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Request Proposal for this Scope</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AGENCY EXECUTION SOP ROADMAP (FROM HANDBOOK)
+         ========================================================================== -->
+    <section id="process" class="process-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">6-Stage Delivery Protocol</span>
+          <h2 class="section-title">How We <span class="text-gradient">Deliver Every Project</span></h2>
+          <p class="section-subtitle">
+            A standardized, transparent workflow from discovery to launch that guarantees zero surprises, clear milestone approvals, and dependable execution.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <!-- Step 1 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 01 // DISCOVERY</div>
+            <h3 class="process-card-title">Commercial Audit &amp; Goals</h3>
+            <p class="process-card-desc">
+              We analyze your business model, customer segments, current digital pain points, and specific conversion goals before proposing any architecture.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 02 // SCOPE DEFINITION</div>
+            <h3 class="process-card-title">Specification &amp; Roadmap</h3>
+            <p class="process-card-desc">
+              Detailed breakdown of page structures, integrations, third-party services, deliverables, and acceptance criteria in writing.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 03 // UI/UX DIRECTION</div>
+            <h3 class="process-card-title">Visual Layout Approval</h3>
+            <p class="process-card-desc">
+              High-fidelity interactive UI/UX prototypes designed around brand consistency, typography rules, and psychological conversion cues.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 04 // CLEAN CODE BUILD</div>
+            <h3 class="process-card-title">Precision Development</h3>
+            <p class="process-card-desc">
+              Modern development using semantic HTML, responsive CSS, tested JavaScript, robust CMS configuration, and clean webhook pipelines.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 05 // QUALITY ASSURANCE</div>
+            <h3 class="process-card-title">Device &amp; Performance QA</h3>
+            <p class="process-card-desc">
+              Rigorous cross-browser checks, mobile breakpoint testing, form delivery tests, checkout simulation, and page-speed benchmarking.
+            </p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="process-step-card">
+            <div class="step-num-badge">STAGE 06 // LAUNCH &amp; HANDOVER</div>
+            <h3 class="process-card-title">Ownership Transfer &amp; Care</h3>
+            <p class="process-card-desc">
+              Live deployment with DNS configuration, complete credentials transfer, backup procedures, CMS walkthrough, and warranty support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNOLOGY & AI STACK (TRANSPARENT CAPABILITIES)
+         ========================================================================== -->
+    <section class="tech-stack-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Engineered Stacks</span>
+          <h2 class="section-title">Tested <span class="text-gradient">Technologies We Trust</span></h2>
+          <p class="section-subtitle">
+            Modern, maintainable technologies selected to maximize performance, uptime, and security.
+          </p>
+        </div>
+
+        <div class="tech-categories-grid">
+          <!-- Stack 1 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-globe"></i> Web Front-End</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">HTML5 Semantic</span>
+              <span class="tech-badge-item">Modern CSS3</span>
+              <span class="tech-badge-item">JavaScript (ES6+)</span>
+              <span class="tech-badge-item">Responsive UI</span>
+              <span class="tech-badge-item">Tailwind / Bootstrap</span>
+            </div>
+          </div>
+
+          <!-- Stack 2 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-server"></i> CMS &amp; Back-End</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">WordPress</span>
+              <span class="tech-badge-item">WooCommerce</span>
+              <span class="tech-badge-item">PHP 8+</span>
+              <span class="tech-badge-item">Python</span>
+              <span class="tech-badge-item">MySQL / SQL</span>
+            </div>
+          </div>
+
+          <!-- Stack 3 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-microchip"></i> AI &amp; Automation</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">Gemini Pro API</span>
+              <span class="tech-badge-item">Claude API</span>
+              <span class="tech-badge-item">WhatsApp Cloud API</span>
+              <span class="tech-badge-item">Webhooks &amp; REST</span>
+              <span class="tech-badge-item">Playwright / Scripting</span>
+            </div>
+          </div>
+
+          <!-- Stack 4 -->
+          <div class="tech-cat-card">
+            <h4 class="tech-cat-title"><i class="fa-solid fa-palette"></i> Creative &amp; Media</h4>
+            <div class="tech-chips-wrap">
+              <span class="tech-badge-item">Cinematic 3D Mockups</span>
+              <span class="tech-badge-item">Figma UI/UX</span>
+              <span class="tech-badge-item">Veo 3.x / Runway</span>
+              <span class="tech-badge-item">Nano Banana Pro</span>
+              <span class="tech-badge-item">Meta Creative Suite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT TRUST & TESTIMONIALS
+         ========================================================================== -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill">Client Trust</span>
+          <h2 class="section-title">What Founders Say About <span class="text-gradient">Our Execution</span></h2>
+          <p class="section-subtitle">
+            Reliable communication, strict adherence to deadlines, and real business results.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "KK Technologies transformed our retail packaged food brand into a seamless online ordering platform. Our checkout process is now frictionless, and order inquiries through WhatsApp run on autopilot."
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">VF</div>
+              <div>
+                <div class="client-name">Vaishaliben Foods Team</div>
+                <div class="client-role">Founder &amp; Brand Owner</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "Finding an agency in Rajkot that truly understands modern mobile UI and fast page speeds was difficult until we partnered with KK Technologies. They delivered our digital menu and booking experience ahead of schedule."
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">LF</div>
+              <div>
+                <div class="client-name">Labhikrupa Hospitality</div>
+                <div class="client-role">Restaurant Operations Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">
+                "The clarity in their project proposal and 6-step SOP made the entire engagement stress-free. Every milestone was demonstrated on a private staging link before going live. Highly recommended!"
+              </p>
+            </div>
+            <div class="client-author-info">
+              <div class="client-avatar">MK</div>
+              <div>
+                <div class="client-name">Enterprise Client Partner</div>
+                <div class="client-role">Managing Director, B2B Logistics</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT & CLIENT CLOSING SECTION
+         ========================================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-pill orange-pill"><i class="fa-solid fa-handshake"></i> Let's Build Something Exceptional</span>
+          <h2 class="section-title">Ready to Upgrade Your <span class="text-gradient">Digital Presence?</span></h2>
+          <p class="section-subtitle">
+            Tell us about your business goals. We will conduct a short discovery review and prepare a clear, milestone-driven technical proposal.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Contact Info -->
+          <div class="contact-info-col">
+            <div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 14px;">Let's discuss your project.</h3>
+              <p style="color: var(--text-muted); line-height: 1.7;">
+                Whether you need a fresh website, an e-commerce platform upgrade, or an automated AI customer assistant, KK Technologies is your dependable execution partner.
+              </p>
+
+              <div class="contact-cards-list">
+                <!-- Location -->
+                <div class="contact-method-card">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Headquarters</div>
+                    <div class="method-val">Rajkot, Gujarat, India (Serving Global Clients)</div>
+                  </div>
+                </div>
+
+                <!-- WhatsApp Direct -->
+                <a href="https://wa.me/919999999999?text=Hi%20KK%20Technologies,%20I%20would%20like%20to%20discuss%20a%20digital%20project." 
+                   target="_blank" 
+                   class="contact-method-card" 
+                   style="border-color: rgba(37, 211, 102, 0.3);">
+                  <div class="contact-method-icon" style="background: rgba(37, 211, 102, 0.15); color: #25D366; border-color: rgba(37, 211, 102, 0.4);">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Direct WhatsApp Chat</div>
+                    <div class="method-val" style="color: #25D366;">+91 (Direct WhatsApp Line)</div>
+                  </div>
+                </a>
+
+                <!-- Email -->
+                <div class="contact-method-card">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <div class="method-label">Official Email</div>
+                    <div class="method-val">contact@kktechnologies.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Response SLA Note -->
+            <div style="padding: 16px 20px; border-radius: 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-glass);">
+              <div style="font-family: var(--font-mono); font-size: 0.8rem; color: #10B981; margin-bottom: 4px;">
+                <i class="fa-solid fa-clock"></i> 24-Hour Response Commitment
+              </div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">
+                We value your time. All inquiries receive an executive response with recommended next steps within 1 business day.
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Contact Form Box -->
+          <div class="contact-form-box">
+            <h3 style="font-size: 1.4rem; margin-bottom: 24px;">Project Discovery Request</h3>
+
+            <form id="agency-contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="client-name">Your Full Name *</label>
+                  <input type="text" id="client-name" class="form-control" placeholder="e.g. Vivek Vagadiya" required>
+                </div>
+                <div class="form-group">
+                  <label for="client-phone">Phone / WhatsApp Number *</label>
+                  <input type="tel" id="client-phone" class="form-control" placeholder="+91 98765 43210" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="client-email">Email Address</label>
+                  <input type="email" id="client-email" class="form-control" placeholder="name@business.com">
+                </div>
+                <div class="form-group">
+                  <label for="contact-service-select">Interested Service</label>
+                  <select id="contact-service-select" class="form-control">
+                    <option value="ecommerce">WooCommerce &amp; E-Commerce Store</option>
+                    <option value="web">Business Website Design &amp; UI/UX</option>
+                    <option value="ai">AI Chatbot &amp; Conversational Agent</option>
+                    <option value="growth">Digital Growth &amp; Ad Funnel</option>
+                    <option value="automation">Workflow Automation &amp; APIs</option>
+                    <option value="custom">Complete Digital Transformation Suite</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="client-budget">Estimated Budget Range</label>
+                <select id="client-budget" class="form-control">
+                  <option value="starter">Growth Project (₹25k – ₹50k / $500 – $1,000)</option>
+                  <option value="pro" selected>Professional Scaled System (₹50k – ₹1.5L / $1,000 – $2,500)</option>
+                  <option value="enterprise">Custom Enterprise Solution (₹1.5L+ / $2,500+)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="project-message">Project Description &amp; Requirements</label>
+                <textarea id="project-message" class="form-control" placeholder="Tell us about your brand, current bottlenecks, and target launch timeline..."></textarea>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Submit Discovery Request</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       CASE STUDY DETAIL MODAL DRAWER
+       ========================================================================== -->
+  <div class="modal-backdrop" aria-hidden="true">
+    <div class="case-study-modal" role="dialog" aria-modal="true">
+      <button class="modal-close-btn" aria-label="Close Case Study Details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-hero-banner">
+        <img src="assets/projects/vaishaliben.svg" alt="Project Banner">
+      </div>
+
+      <div class="modal-content-body">
+        <div class="modal-title-wrap">
+          <span class="badge-pill" style="margin-bottom: 8px;">CONFIRMED CASE ARCHITECTURE</span>
+          <h2 class="modal-title">Case Study Details</h2>
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <div class="meta-label">Category</div>
+            <div class="meta-val modal-cat-val">E-Commerce</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Delivery Timeline</div>
+            <div class="meta-val modal-time-val">3 Weeks</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Deployment</div>
+            <div class="meta-val modal-loc-val">Rajkot / Global</div>
+          </div>
+          <div class="modal-meta-item">
+            <div class="meta-label">Tech Stack</div>
+            <div class="meta-val modal-stack-val">WooCommerce / PHP</div>
+          </div>
+        </div>
+
+        <!-- Challenge -->
+        <div class="modal-text-block">
+          <h4>The Business Challenge</h4>
+          <p class="modal-challenge-text">Detailed challenge description...</p>
+        </div>
+
+        <!-- Solution -->
+        <div class="modal-text-block">
+          <h4>KK Technologies Strategic Solution</h4>
+          <p class="modal-solution-text">Detailed solution description...</p>
+        </div>
+
+        <!-- Measurable Results -->
+        <div class="modal-results-box">
+          <h4 class="modal-results-title"><i class="fa-solid fa-chart-line"></i> Verified Architectural Metrics</h4>
+          <div class="modal-metrics-container" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Footer CTA -->
+        <div class="modal-footer-cta">
+          <div>
+            <div style="font-weight: 700; color: #fff; font-size: 1rem;">Ready for similar results?</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">We tailor this exact execution framework for your brand.</div>
+          </div>
+          <button class="btn btn-primary modal-book-similar-btn" data-prefill="">
+            <span>Start a Similar Project</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/919999999999?text=Hi%20KK%20Technologies,%20I%20am%20interested%20in%20discussing%20a%20project." 
+     target="_blank" 
+     class="floating-whatsapp-btn" 
+     aria-label="Chat with KK Technologies on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-brand-col">
+          <div class="brand-logo" style="margin-bottom: 12px;">
+            <img src="assets/kk_logo_white.png" alt="KK Technologies Logo" style="height: 38px;">
+            <div class="brand-text-wrap">
+              <span class="brand-name">KK TECHNOLOGIES</span>
+              <span class="brand-tagline">INTELLIGENCE. INNOVATION. IMPACT.</span>
+            </div>
+          </div>
+          <p>
+            Full-service digital technology agency engineering modern websites, e-commerce stores, practical AI chatbots, and high-converting growth funnels.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://linkedin.com" target="_blank" class="footer-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" class="footer-social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919999999999" target="_blank" class="footer-social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com" target="_blank" class="footer-social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#about">About Agency</a></li>
+            <li><a href="#services">Core Services</a></li>
+            <li><a href="#portfolio">Client Portfolio</a></li>
+            <li><a href="#estimator">Scope Estimator</a></li>
+            <li><a href="#process">6-Stage Delivery SOP</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Capabilities -->
+        <div>
+          <h4 class="footer-col-title">Specializations</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services">Custom Web Development</a></li>
+            <li><a href="#services">WooCommerce Architecture</a></li>
+            <li><a href="#services">AI WhatsApp Chatbots</a></li>
+            <li><a href="#services">Meta Ads &amp; Growth Funnels</a></li>
+            <li><a href="#services">Workflow Automation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Location & Direct -->
+        <div>
+          <h4 class="footer-col-title">Office &amp; Inquiries</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+            Rajkot, Gujarat, India<br>
+            Serving Local, National &amp; Global Clients
+          </p>
+          <p style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent-primary-light);">
+            contact@kktechnologies.com<br>
+            www.kktechnologies.com
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 KK Technologies. All rights reserved. Built with precision &amp; pride.
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.78rem;">
+          Brand Lock: Midnight Black (#08090D) • Electric Violet (#7C3AED) • Dark Orange (#FF5A1F)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

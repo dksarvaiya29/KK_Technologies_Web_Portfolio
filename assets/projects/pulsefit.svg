@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d0b"/>
+      <stop offset="60%" stop-color="#0f1f17"/>
+      <stop offset="100%" stop-color="#143324"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad6)" rx="16"/>
+
+  <!-- Energy waves -->
+  <g opacity="0.12" stroke="#10b981" stroke-width="1.5">
+    <path d="M50 250 Q 200 120 400 250 T 750 250" fill="none"/>
+    <path d="M50 280 Q 200 150 400 280 T 750 280" fill="none"/>
+  </g>
+
+  <!-- Frame -->
+  <g transform="translate(60, 45)">
+    <rect width="680" height="410" rx="12" fill="#0b140f" stroke="#10b981" stroke-width="1.2" opacity="0.95"/>
+    <rect width="680" height="38" rx="12" fill="#12241b"/>
+    <circle cx="25" cy="19" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="19" r="5" fill="#f59e0b"/>
+    <circle cx="59" cy="19" r="5" fill="#10b981"/>
+    <rect x="90" y="9" width="380" height="20" rx="6" fill="#1a3528"/>
+    <text x="110" y="23" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f5f5f7" opacity="0.8">https://pulsefitnutrition.store/whey</text>
+
+    <!-- Content -->
+    <g transform="translate(30, 55)">
+      <text x="0" y="25" font-family="'Montserrat', sans-serif" font-size="22" font-weight="800" fill="#ffffff">PULSEFIT D2C NUTRITION</text>
+      <text x="0" y="45" font-family="'Poppins', sans-serif" font-size="12" fill="#34d399">High-Velocity D2C Shopify/WooCommerce Engine &amp; Performance Funnels</text>
+
+      <g transform="translate(0, 60)">
+        <rect x="0" y="0" width="360" height="180" rx="10" fill="#13271d" stroke="#1e3d2e"/>
+        <text x="25" y="35" font-family="'Montserrat', sans-serif" font-size="16" font-weight="700" fill="#ffffff">Hydro Whey Isolate Pro</text>
+        <text x="25" y="55" font-family="'Poppins', sans-serif" font-size="12" fill="#a7f3d0">One-Click Sticky Buy Flow + Upsell Bundles</text>
+        
+        <rect x="25" y="75" width="310" height="45" rx="6" fill="#1a382a"/>
+        <text x="40" y="95" font-family="'Poppins', sans-serif" font-size="11" fill="#ffffff">⚡ Free Shaker + Creatine Auto-Applied at Checkout</text>
+        <text x="40" y="112" font-family="'Poppins', sans-serif" font-size="10" fill="#34d399">Average Order Value boosted by +38%</text>
+
+        <rect x="25" y="132" width="160" height="32" rx="6" fill="url(#greenGrad)"/>
+        <text x="45" y="153" font-family="'Poppins', sans-serif" font-size="12" font-weight="700" fill="#ffffff">Shop Bundle Now</text>
+
+        <!-- Right stats -->
+        <g transform="translate(380, 0)">
+          <rect x="0" y="0" width="240" height="180" rx="10" fill="#13271d" stroke="#10b981" stroke-width="1.2"/>
+          <text x="20" y="30" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#34d399">GROWTH VELOCITY</text>
+          <text x="20" y="65" font-family="'Montserrat', sans-serif" font-size="26" font-weight="800" fill="#ffffff">+310%</text>
+          <text x="20" y="83" font-family="'Poppins', sans-serif" font-size="11" fill="#94a3b8">Online Store Revenue Uplift</text>
+          <line x1="20" y1="98" x2="220" y2="98" stroke="#1e3d2e"/>
+          <text x="20" y="125" font-family="'Montserrat', sans-serif" font-size="24" font-weight="800" fill="#38bdf8">4.2x ROAS</text>
+          <text x="20" y="145" font-family="'Poppins', sans-serif" font-size="11" fill="#94a3b8">Meta Ads Creative Funnel</text>
+        </g>
+      </g>
+
+      <!-- Bottom tags -->
+      <g transform="translate(0, 260)">
+        <rect x="0" y="0" width="135" height="26" rx="13" fill="#1d3b2c"/>
+        <text x="18" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">D2C E-Commerce</text>
+        <rect x="145" y="0" width="135" height="26" rx="13" fill="#1d3b2c"/>
+        <text x="160" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">Checkout Funnel</text>
+        <rect x="290" y="0" width="130" height="26" rx="13" fill="#1d3b2c"/>
+        <text x="305" y="17" font-family="'Poppins', sans-serif" font-size="11" fill="#f8fafc">High ROAS Ads</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(60, 45)">
+    <rect x="390" y="375" width="275" height="26" rx="6" fill="#059669"/>
+    <text x="402" y="392" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#ffffff">★ CLIENT SLOT: READY FOR SCREENSHOT</text>
+  </g>
+</svg>
